@@ -1,0 +1,1909 @@
+android.arch.core.R -> android.arch.core.R:
+    void <init>() -> <init>
+android.arch.lifecycle.R -> android.arch.lifecycle.R:
+    void <init>() -> <init>
+android.arch.lifecycle.livedata.core.R -> android.arch.lifecycle.livedata.core.R:
+    void <init>() -> <init>
+android.arch.lifecycle.viewmodel.R -> android.arch.lifecycle.viewmodel.R:
+    void <init>() -> <init>
+android.support.compat.R -> android.support.compat.R:
+    void <init>() -> <init>
+android.support.compat.R$attr -> android.support.compat.R$attr:
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    void <init>() -> <init>
+android.support.compat.R$bool -> android.support.compat.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+android.support.compat.R$color -> android.support.compat.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+android.support.compat.R$dimen -> android.support.compat.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+android.support.compat.R$drawable -> android.support.compat.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+android.support.compat.R$id -> android.support.compat.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int chronometer -> chronometer
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int line1 -> line1
+    int line3 -> line3
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    void <init>() -> <init>
+android.support.compat.R$integer -> android.support.compat.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+android.support.compat.R$layout -> android.support.compat.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+android.support.compat.R$string -> android.support.compat.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+android.support.compat.R$style -> android.support.compat.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    void <init>() -> <init>
+android.support.compat.R$styleable -> android.support.compat.R$styleable:
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.support.coreui.R -> android.support.coreui.R:
+    void <init>() -> <init>
+android.support.coreui.R$attr -> android.support.coreui.R$attr:
+    int coordinatorLayoutStyle -> coordinatorLayoutStyle
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    int keylines -> keylines
+    int layout_anchor -> layout_anchor
+    int layout_anchorGravity -> layout_anchorGravity
+    int layout_behavior -> layout_behavior
+    int layout_dodgeInsetEdges -> layout_dodgeInsetEdges
+    int layout_insetEdge -> layout_insetEdge
+    int layout_keyline -> layout_keyline
+    int statusBarBackground -> statusBarBackground
+    void <init>() -> <init>
+android.support.coreui.R$bool -> android.support.coreui.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+android.support.coreui.R$color -> android.support.coreui.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+android.support.coreui.R$dimen -> android.support.coreui.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+android.support.coreui.R$drawable -> android.support.coreui.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+android.support.coreui.R$id -> android.support.coreui.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int bottom -> bottom
+    int chronometer -> chronometer
+    int end -> end
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int left -> left
+    int line1 -> line1
+    int line3 -> line3
+    int none -> none
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right -> right
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int start -> start
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    int top -> top
+    void <init>() -> <init>
+android.support.coreui.R$integer -> android.support.coreui.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+android.support.coreui.R$layout -> android.support.coreui.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+android.support.coreui.R$string -> android.support.coreui.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+android.support.coreui.R$style -> android.support.coreui.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    int Widget_Support_CoordinatorLayout -> Widget_Support_CoordinatorLayout
+    void <init>() -> <init>
+android.support.coreui.R$styleable -> android.support.coreui.R$styleable:
+    int[] CoordinatorLayout -> CoordinatorLayout
+    int CoordinatorLayout_keylines -> CoordinatorLayout_keylines
+    int CoordinatorLayout_statusBarBackground -> CoordinatorLayout_statusBarBackground
+    int[] CoordinatorLayout_Layout -> CoordinatorLayout_Layout
+    int CoordinatorLayout_Layout_android_layout_gravity -> CoordinatorLayout_Layout_android_layout_gravity
+    int CoordinatorLayout_Layout_layout_anchor -> CoordinatorLayout_Layout_layout_anchor
+    int CoordinatorLayout_Layout_layout_anchorGravity -> CoordinatorLayout_Layout_layout_anchorGravity
+    int CoordinatorLayout_Layout_layout_behavior -> CoordinatorLayout_Layout_layout_behavior
+    int CoordinatorLayout_Layout_layout_dodgeInsetEdges -> CoordinatorLayout_Layout_layout_dodgeInsetEdges
+    int CoordinatorLayout_Layout_layout_insetEdge -> CoordinatorLayout_Layout_layout_insetEdge
+    int CoordinatorLayout_Layout_layout_keyline -> CoordinatorLayout_Layout_layout_keyline
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.support.coreutils.R -> android.support.coreutils.R:
+    void <init>() -> <init>
+android.support.coreutils.R$attr -> android.support.coreutils.R$attr:
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    void <init>() -> <init>
+android.support.coreutils.R$bool -> android.support.coreutils.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+android.support.coreutils.R$color -> android.support.coreutils.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+android.support.coreutils.R$dimen -> android.support.coreutils.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+android.support.coreutils.R$drawable -> android.support.coreutils.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+android.support.coreutils.R$id -> android.support.coreutils.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int chronometer -> chronometer
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int line1 -> line1
+    int line3 -> line3
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    void <init>() -> <init>
+android.support.coreutils.R$integer -> android.support.coreutils.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+android.support.coreutils.R$layout -> android.support.coreutils.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+android.support.coreutils.R$string -> android.support.coreutils.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+android.support.coreutils.R$style -> android.support.coreutils.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    void <init>() -> <init>
+android.support.coreutils.R$styleable -> android.support.coreutils.R$styleable:
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.support.fragment.R -> android.support.fragment.R:
+    void <init>() -> <init>
+android.support.fragment.R$attr -> android.support.fragment.R$attr:
+    int coordinatorLayoutStyle -> coordinatorLayoutStyle
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    int keylines -> keylines
+    int layout_anchor -> layout_anchor
+    int layout_anchorGravity -> layout_anchorGravity
+    int layout_behavior -> layout_behavior
+    int layout_dodgeInsetEdges -> layout_dodgeInsetEdges
+    int layout_insetEdge -> layout_insetEdge
+    int layout_keyline -> layout_keyline
+    int statusBarBackground -> statusBarBackground
+    void <init>() -> <init>
+android.support.fragment.R$bool -> android.support.fragment.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+android.support.fragment.R$color -> android.support.fragment.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+android.support.fragment.R$dimen -> android.support.fragment.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+android.support.fragment.R$drawable -> android.support.fragment.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+android.support.fragment.R$id -> android.support.fragment.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int bottom -> bottom
+    int chronometer -> chronometer
+    int end -> end
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int left -> left
+    int line1 -> line1
+    int line3 -> line3
+    int none -> none
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right -> right
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int start -> start
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    int top -> top
+    void <init>() -> <init>
+android.support.fragment.R$integer -> android.support.fragment.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+android.support.fragment.R$layout -> android.support.fragment.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+android.support.fragment.R$string -> android.support.fragment.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+android.support.fragment.R$style -> android.support.fragment.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    int Widget_Support_CoordinatorLayout -> Widget_Support_CoordinatorLayout
+    void <init>() -> <init>
+android.support.fragment.R$styleable -> android.support.fragment.R$styleable:
+    int[] CoordinatorLayout -> CoordinatorLayout
+    int CoordinatorLayout_keylines -> CoordinatorLayout_keylines
+    int CoordinatorLayout_statusBarBackground -> CoordinatorLayout_statusBarBackground
+    int[] CoordinatorLayout_Layout -> CoordinatorLayout_Layout
+    int CoordinatorLayout_Layout_android_layout_gravity -> CoordinatorLayout_Layout_android_layout_gravity
+    int CoordinatorLayout_Layout_layout_anchor -> CoordinatorLayout_Layout_layout_anchor
+    int CoordinatorLayout_Layout_layout_anchorGravity -> CoordinatorLayout_Layout_layout_anchorGravity
+    int CoordinatorLayout_Layout_layout_behavior -> CoordinatorLayout_Layout_layout_behavior
+    int CoordinatorLayout_Layout_layout_dodgeInsetEdges -> CoordinatorLayout_Layout_layout_dodgeInsetEdges
+    int CoordinatorLayout_Layout_layout_insetEdge -> CoordinatorLayout_Layout_layout_insetEdge
+    int CoordinatorLayout_Layout_layout_keyline -> CoordinatorLayout_Layout_layout_keyline
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.support.graphics.drawable.R -> android.support.graphics.drawable.R:
+    void <init>() -> <init>
+android.support.graphics.drawable.R$attr -> android.support.graphics.drawable.R$attr:
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    void <init>() -> <init>
+android.support.graphics.drawable.R$bool -> android.support.graphics.drawable.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+android.support.graphics.drawable.R$color -> android.support.graphics.drawable.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+android.support.graphics.drawable.R$dimen -> android.support.graphics.drawable.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+android.support.graphics.drawable.R$drawable -> android.support.graphics.drawable.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+android.support.graphics.drawable.R$id -> android.support.graphics.drawable.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int chronometer -> chronometer
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int line1 -> line1
+    int line3 -> line3
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    void <init>() -> <init>
+android.support.graphics.drawable.R$integer -> android.support.graphics.drawable.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+android.support.graphics.drawable.R$layout -> android.support.graphics.drawable.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+android.support.graphics.drawable.R$string -> android.support.graphics.drawable.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+android.support.graphics.drawable.R$style -> android.support.graphics.drawable.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    void <init>() -> <init>
+android.support.graphics.drawable.R$styleable -> android.support.graphics.drawable.R$styleable:
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+android.support.graphics.drawable.animated.R -> android.support.graphics.drawable.animated.R:
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$attr -> android.support.graphics.drawable.animated.R$attr:
+    int coordinatorLayoutStyle -> coordinatorLayoutStyle
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    int keylines -> keylines
+    int layout_anchor -> layout_anchor
+    int layout_anchorGravity -> layout_anchorGravity
+    int layout_behavior -> layout_behavior
+    int layout_dodgeInsetEdges -> layout_dodgeInsetEdges
+    int layout_insetEdge -> layout_insetEdge
+    int layout_keyline -> layout_keyline
+    int statusBarBackground -> statusBarBackground
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$bool -> android.support.graphics.drawable.animated.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$color -> android.support.graphics.drawable.animated.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$dimen -> android.support.graphics.drawable.animated.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$drawable -> android.support.graphics.drawable.animated.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$id -> android.support.graphics.drawable.animated.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int bottom -> bottom
+    int chronometer -> chronometer
+    int end -> end
+    int forever -> forever
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int left -> left
+    int line1 -> line1
+    int line3 -> line3
+    int none -> none
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right -> right
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int start -> start
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    int top -> top
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$integer -> android.support.graphics.drawable.animated.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$layout -> android.support.graphics.drawable.animated.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$string -> android.support.graphics.drawable.animated.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$style -> android.support.graphics.drawable.animated.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    int Widget_Support_CoordinatorLayout -> Widget_Support_CoordinatorLayout
+    void <init>() -> <init>
+android.support.graphics.drawable.animated.R$styleable -> android.support.graphics.drawable.animated.R$styleable:
+    int[] CoordinatorLayout -> CoordinatorLayout
+    int CoordinatorLayout_keylines -> CoordinatorLayout_keylines
+    int CoordinatorLayout_statusBarBackground -> CoordinatorLayout_statusBarBackground
+    int[] CoordinatorLayout_Layout -> CoordinatorLayout_Layout
+    int CoordinatorLayout_Layout_android_layout_gravity -> CoordinatorLayout_Layout_android_layout_gravity
+    int CoordinatorLayout_Layout_layout_anchor -> CoordinatorLayout_Layout_layout_anchor
+    int CoordinatorLayout_Layout_layout_anchorGravity -> CoordinatorLayout_Layout_layout_anchorGravity
+    int CoordinatorLayout_Layout_layout_behavior -> CoordinatorLayout_Layout_layout_behavior
+    int CoordinatorLayout_Layout_layout_dodgeInsetEdges -> CoordinatorLayout_Layout_layout_dodgeInsetEdges
+    int CoordinatorLayout_Layout_layout_insetEdge -> CoordinatorLayout_Layout_layout_insetEdge
+    int CoordinatorLayout_Layout_layout_keyline -> CoordinatorLayout_Layout_layout_keyline
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.bumptech.glide.R -> com.bumptech.glide.R:
+    void <init>() -> <init>
+com.bumptech.glide.R$attr -> com.bumptech.glide.R$attr:
+    int coordinatorLayoutStyle -> coordinatorLayoutStyle
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    int keylines -> keylines
+    int layout_anchor -> layout_anchor
+    int layout_anchorGravity -> layout_anchorGravity
+    int layout_behavior -> layout_behavior
+    int layout_dodgeInsetEdges -> layout_dodgeInsetEdges
+    int layout_insetEdge -> layout_insetEdge
+    int layout_keyline -> layout_keyline
+    int statusBarBackground -> statusBarBackground
+    void <init>() -> <init>
+com.bumptech.glide.R$bool -> com.bumptech.glide.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+com.bumptech.glide.R$color -> com.bumptech.glide.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+com.bumptech.glide.R$dimen -> com.bumptech.glide.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+com.bumptech.glide.R$drawable -> com.bumptech.glide.R$drawable:
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+com.bumptech.glide.R$id -> com.bumptech.glide.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int bottom -> bottom
+    int chronometer -> chronometer
+    int end -> end
+    int forever -> forever
+    int glide_custom_view_target_tag -> glide_custom_view_target_tag
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int left -> left
+    int line1 -> line1
+    int line3 -> line3
+    int none -> none
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right -> right
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int start -> start
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    int top -> top
+    void <init>() -> <init>
+com.bumptech.glide.R$integer -> com.bumptech.glide.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+com.bumptech.glide.R$layout -> com.bumptech.glide.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+com.bumptech.glide.R$string -> com.bumptech.glide.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+com.bumptech.glide.R$style -> com.bumptech.glide.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    int Widget_Support_CoordinatorLayout -> Widget_Support_CoordinatorLayout
+    void <init>() -> <init>
+com.bumptech.glide.R$styleable -> com.bumptech.glide.R$styleable:
+    int[] CoordinatorLayout -> CoordinatorLayout
+    int CoordinatorLayout_keylines -> CoordinatorLayout_keylines
+    int CoordinatorLayout_statusBarBackground -> CoordinatorLayout_statusBarBackground
+    int[] CoordinatorLayout_Layout -> CoordinatorLayout_Layout
+    int CoordinatorLayout_Layout_android_layout_gravity -> CoordinatorLayout_Layout_android_layout_gravity
+    int CoordinatorLayout_Layout_layout_anchor -> CoordinatorLayout_Layout_layout_anchor
+    int CoordinatorLayout_Layout_layout_anchorGravity -> CoordinatorLayout_Layout_layout_anchorGravity
+    int CoordinatorLayout_Layout_layout_behavior -> CoordinatorLayout_Layout_layout_behavior
+    int CoordinatorLayout_Layout_layout_dodgeInsetEdges -> CoordinatorLayout_Layout_layout_dodgeInsetEdges
+    int CoordinatorLayout_Layout_layout_insetEdge -> CoordinatorLayout_Layout_layout_insetEdge
+    int CoordinatorLayout_Layout_layout_keyline -> CoordinatorLayout_Layout_layout_keyline
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.bumptech.glide.gifdecoder.R -> com.bumptech.glide.gifdecoder.R:
+    void <init>() -> <init>
+com.superads.android.adsdk.R -> com.superads.android.adsdk.R:
+    void <init>() -> <init>
+com.superads.android.adsdk.R$attr -> com.superads.android.adsdk.R$attr:
+    int coordinatorLayoutStyle -> coordinatorLayoutStyle
+    int font -> font
+    int fontProviderAuthority -> fontProviderAuthority
+    int fontProviderCerts -> fontProviderCerts
+    int fontProviderFetchStrategy -> fontProviderFetchStrategy
+    int fontProviderFetchTimeout -> fontProviderFetchTimeout
+    int fontProviderPackage -> fontProviderPackage
+    int fontProviderQuery -> fontProviderQuery
+    int fontStyle -> fontStyle
+    int fontWeight -> fontWeight
+    int keylines -> keylines
+    int layout_anchor -> layout_anchor
+    int layout_anchorGravity -> layout_anchorGravity
+    int layout_behavior -> layout_behavior
+    int layout_dodgeInsetEdges -> layout_dodgeInsetEdges
+    int layout_insetEdge -> layout_insetEdge
+    int layout_keyline -> layout_keyline
+    int statusBarBackground -> statusBarBackground
+    void <init>() -> <init>
+com.superads.android.adsdk.R$bool -> com.superads.android.adsdk.R$bool:
+    int abc_action_bar_embed_tabs -> abc_action_bar_embed_tabs
+    void <init>() -> <init>
+com.superads.android.adsdk.R$color -> com.superads.android.adsdk.R$color:
+    int notification_action_color_filter -> notification_action_color_filter
+    int notification_icon_bg_color -> notification_icon_bg_color
+    int ripple_material_light -> ripple_material_light
+    int secondary_text_default_material_light -> secondary_text_default_material_light
+    void <init>() -> <init>
+com.superads.android.adsdk.R$dimen -> com.superads.android.adsdk.R$dimen:
+    int compat_button_inset_horizontal_material -> compat_button_inset_horizontal_material
+    int compat_button_inset_vertical_material -> compat_button_inset_vertical_material
+    int compat_button_padding_horizontal_material -> compat_button_padding_horizontal_material
+    int compat_button_padding_vertical_material -> compat_button_padding_vertical_material
+    int compat_control_corner_material -> compat_control_corner_material
+    int notification_action_icon_size -> notification_action_icon_size
+    int notification_action_text_size -> notification_action_text_size
+    int notification_big_circle_margin -> notification_big_circle_margin
+    int notification_content_margin_start -> notification_content_margin_start
+    int notification_large_icon_height -> notification_large_icon_height
+    int notification_large_icon_width -> notification_large_icon_width
+    int notification_main_column_padding_top -> notification_main_column_padding_top
+    int notification_media_narrow_margin -> notification_media_narrow_margin
+    int notification_right_icon_size -> notification_right_icon_size
+    int notification_right_side_padding_top -> notification_right_side_padding_top
+    int notification_small_icon_background_padding -> notification_small_icon_background_padding
+    int notification_small_icon_size_as_large -> notification_small_icon_size_as_large
+    int notification_subtext_size -> notification_subtext_size
+    int notification_top_pad -> notification_top_pad
+    int notification_top_pad_large_text -> notification_top_pad_large_text
+    void <init>() -> <init>
+com.superads.android.adsdk.R$drawable -> com.superads.android.adsdk.R$drawable:
+    int interstitial_close_icon -> interstitial_close_icon
+    int notification_action_background -> notification_action_background
+    int notification_bg -> notification_bg
+    int notification_bg_low -> notification_bg_low
+    int notification_bg_low_normal -> notification_bg_low_normal
+    int notification_bg_low_pressed -> notification_bg_low_pressed
+    int notification_bg_normal -> notification_bg_normal
+    int notification_bg_normal_pressed -> notification_bg_normal_pressed
+    int notification_icon_background -> notification_icon_background
+    int notification_template_icon_bg -> notification_template_icon_bg
+    int notification_template_icon_low_bg -> notification_template_icon_low_bg
+    int notification_tile_bg -> notification_tile_bg
+    int notify_panel_notification_icon_bg -> notify_panel_notification_icon_bg
+    void <init>() -> <init>
+com.superads.android.adsdk.R$id -> com.superads.android.adsdk.R$id:
+    int action_container -> action_container
+    int action_divider -> action_divider
+    int action_image -> action_image
+    int action_text -> action_text
+    int actions -> actions
+    int async -> async
+    int blocking -> blocking
+    int bottom -> bottom
+    int chronometer -> chronometer
+    int end -> end
+    int forever -> forever
+    int glide_custom_view_target_tag -> glide_custom_view_target_tag
+    int icon -> icon
+    int icon_group -> icon_group
+    int info -> info
+    int italic -> italic
+    int left -> left
+    int line1 -> line1
+    int line3 -> line3
+    int none -> none
+    int normal -> normal
+    int notification_background -> notification_background
+    int notification_main_column -> notification_main_column
+    int notification_main_column_container -> notification_main_column_container
+    int right -> right
+    int right_icon -> right_icon
+    int right_side -> right_side
+    int start -> start
+    int tag_transition_group -> tag_transition_group
+    int text -> text
+    int text2 -> text2
+    int time -> time
+    int title -> title
+    int top -> top
+    void <init>() -> <init>
+com.superads.android.adsdk.R$integer -> com.superads.android.adsdk.R$integer:
+    int status_bar_notification_info_maxnum -> status_bar_notification_info_maxnum
+    void <init>() -> <init>
+com.superads.android.adsdk.R$layout -> com.superads.android.adsdk.R$layout:
+    int notification_action -> notification_action
+    int notification_action_tombstone -> notification_action_tombstone
+    int notification_template_custom_big -> notification_template_custom_big
+    int notification_template_icon_group -> notification_template_icon_group
+    int notification_template_part_chronometer -> notification_template_part_chronometer
+    int notification_template_part_time -> notification_template_part_time
+    void <init>() -> <init>
+com.superads.android.adsdk.R$string -> com.superads.android.adsdk.R$string:
+    int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
+    void <init>() -> <init>
+com.superads.android.adsdk.R$style -> com.superads.android.adsdk.R$style:
+    int TextAppearance_Compat_Notification -> TextAppearance_Compat_Notification
+    int TextAppearance_Compat_Notification_Info -> TextAppearance_Compat_Notification_Info
+    int TextAppearance_Compat_Notification_Line2 -> TextAppearance_Compat_Notification_Line2
+    int TextAppearance_Compat_Notification_Time -> TextAppearance_Compat_Notification_Time
+    int TextAppearance_Compat_Notification_Title -> TextAppearance_Compat_Notification_Title
+    int Widget_Compat_NotificationActionContainer -> Widget_Compat_NotificationActionContainer
+    int Widget_Compat_NotificationActionText -> Widget_Compat_NotificationActionText
+    int Widget_Support_CoordinatorLayout -> Widget_Support_CoordinatorLayout
+    void <init>() -> <init>
+com.superads.android.adsdk.R$styleable -> com.superads.android.adsdk.R$styleable:
+    int[] CoordinatorLayout -> CoordinatorLayout
+    int CoordinatorLayout_keylines -> CoordinatorLayout_keylines
+    int CoordinatorLayout_statusBarBackground -> CoordinatorLayout_statusBarBackground
+    int[] CoordinatorLayout_Layout -> CoordinatorLayout_Layout
+    int CoordinatorLayout_Layout_android_layout_gravity -> CoordinatorLayout_Layout_android_layout_gravity
+    int CoordinatorLayout_Layout_layout_anchor -> CoordinatorLayout_Layout_layout_anchor
+    int CoordinatorLayout_Layout_layout_anchorGravity -> CoordinatorLayout_Layout_layout_anchorGravity
+    int CoordinatorLayout_Layout_layout_behavior -> CoordinatorLayout_Layout_layout_behavior
+    int CoordinatorLayout_Layout_layout_dodgeInsetEdges -> CoordinatorLayout_Layout_layout_dodgeInsetEdges
+    int CoordinatorLayout_Layout_layout_insetEdge -> CoordinatorLayout_Layout_layout_insetEdge
+    int CoordinatorLayout_Layout_layout_keyline -> CoordinatorLayout_Layout_layout_keyline
+    int[] FontFamily -> FontFamily
+    int FontFamily_fontProviderAuthority -> FontFamily_fontProviderAuthority
+    int FontFamily_fontProviderCerts -> FontFamily_fontProviderCerts
+    int FontFamily_fontProviderFetchStrategy -> FontFamily_fontProviderFetchStrategy
+    int FontFamily_fontProviderFetchTimeout -> FontFamily_fontProviderFetchTimeout
+    int FontFamily_fontProviderPackage -> FontFamily_fontProviderPackage
+    int FontFamily_fontProviderQuery -> FontFamily_fontProviderQuery
+    int[] FontFamilyFont -> FontFamilyFont
+    int FontFamilyFont_android_font -> FontFamilyFont_android_font
+    int FontFamilyFont_android_fontStyle -> FontFamilyFont_android_fontStyle
+    int FontFamilyFont_android_fontWeight -> FontFamilyFont_android_fontWeight
+    int FontFamilyFont_font -> FontFamilyFont_font
+    int FontFamilyFont_fontStyle -> FontFamilyFont_fontStyle
+    int FontFamilyFont_fontWeight -> FontFamilyFont_fontWeight
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.events.enums.AdDismissReason -> com.superads.android.adsdk.ads.a.a.a:
+    int DISMISS_BUTTON_CLICKED$5f82e4f4 -> a
+    int AD_VIEW_CLICKED$5f82e4f4 -> b
+    int PROVIDER_GOT_NEW_AD_REQUEST$5f82e4f4 -> c
+    int AD_MAX_CACHE_TIME_EXPIRED$5f82e4f4 -> d
+    int AD_MAX_IMPRESSION_TIME_EXPIRED$5f82e4f4 -> e
+    int PROVIDER_DESTROYED$5f82e4f4 -> f
+    int VIEW_NOT_VISIBLE$5f82e4f4 -> g
+    int[] $VALUES$52aec891 -> h
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.events.enums.AdEvent -> com.superads.android.adsdk.ads.a.a.b:
+    com.superads.android.adsdk.ads.events.enums.AdEvent SHOWN -> a
+    com.superads.android.adsdk.ads.events.enums.AdEvent CLICKED -> b
+    com.superads.android.adsdk.ads.events.enums.AdEvent PACKAGE_INSTALLED -> c
+    com.superads.android.adsdk.ads.events.enums.AdEvent DISMISSED -> d
+    com.superads.android.adsdk.ads.events.enums.AdEvent USER_DISMISSED_BY_CLOSE_BUTTON -> e
+    com.superads.android.adsdk.ads.events.enums.AdEvent AD_RESPONSE_CACHED_AD -> f
+    com.superads.android.adsdk.ads.events.enums.AdEvent AD_BECAME_INVISIBLE -> g
+    com.superads.android.adsdk.ads.events.enums.AdEvent CREATED -> h
+    java.lang.Long eventValue -> i
+    java.lang.String eventName -> j
+    com.superads.android.adsdk.ads.events.enums.AdEvent[] $VALUES -> k
+    com.superads.android.adsdk.ads.events.enums.AdEvent[] values() -> values
+    com.superads.android.adsdk.ads.events.enums.AdEvent valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int,java.lang.Long,java.lang.String) -> <init>
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.events.enums.AdType -> com.superads.android.adsdk.ads.a.a.c:
+    com.superads.android.adsdk.ads.events.enums.AdType BANNER -> a
+    com.superads.android.adsdk.ads.events.enums.AdType INTERSTITIAL -> b
+    com.superads.android.adsdk.ads.events.enums.AdType VIDEO -> c
+    com.superads.android.adsdk.ads.events.enums.AdType REWARD -> d
+    com.superads.android.adsdk.ads.events.enums.AdType NATIVE -> e
+    int intValue -> f
+    com.superads.android.adsdk.ads.events.enums.AdType[] $VALUES -> g
+    com.superads.android.adsdk.ads.events.enums.AdType[] values() -> values
+    com.superads.android.adsdk.ads.events.enums.AdType valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int,int) -> <init>
+    com.superads.android.adsdk.ads.events.enums.AdType getByName(java.lang.String) -> a
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.events.listeners.AdEventListener -> com.superads.android.adsdk.ads.a.b.a:
+    void onAdEvent(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdEvent,com.superads.android.adsdk.ads.providers.models.AdInteractionData) -> a
+com.superads.android.adsdk.ads.http.AdsWebService -> com.superads.android.adsdk.ads.b.a:
+    retrofit2.Call getAd(java.util.Map) -> a
+    retrofit2.Call downloadVideo(java.lang.String) -> a
+com.superads.android.adsdk.ads.http.InterceptorFactory -> com.superads.android.adsdk.ads.b.b:
+    com.superads.android.adsdk.ads.http.InterceptorFactory INSTANCE -> d
+    com.superads.android.adsdk.ads.storage.model.LocalUserData localUserData -> a
+    com.superads.android.adsdk.ads.providers.models.DeviceConfiguration deviceConfiguration -> b
+    android.content.Context context -> c
+    void <init>() -> <init>
+    com.superads.android.adsdk.ads.http.InterceptorFactory getInstance() -> a
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.http.InterceptorFactory$1 -> com.superads.android.adsdk.ads.b.b$1:
+    com.superads.android.adsdk.ads.http.InterceptorFactory this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.http.InterceptorFactory) -> <init>
+    okhttp3.Response intercept(okhttp3.Interceptor$Chain) -> intercept
+com.superads.android.adsdk.ads.http.converter.JsonConverterFactory -> com.superads.android.adsdk.ads.b.a.a:
+    void <init>() -> <init>
+    com.superads.android.adsdk.ads.http.converter.JsonConverterFactory create() -> a
+    retrofit2.Converter responseBodyConverter(java.lang.reflect.Type,java.lang.annotation.Annotation[],retrofit2.Retrofit) -> responseBodyConverter
+    retrofit2.Converter stringConverter(java.lang.reflect.Type,java.lang.annotation.Annotation[],retrofit2.Retrofit) -> stringConverter
+com.superads.android.adsdk.ads.http.converter.JsonResponseBodyConverter -> com.superads.android.adsdk.ads.b.a.b:
+    void <init>() -> <init>
+    org.json.JSONObject convert(okhttp3.ResponseBody) -> a
+    java.lang.Object convert(java.lang.Object) -> convert
+com.superads.android.adsdk.ads.logs.Logger -> com.superads.android.adsdk.ads.c.a:
+    void <init>() -> <init>
+    void d(java.lang.String) -> a
+    void e(java.lang.String) -> b
+    void i(java.lang.String) -> c
+    void log(int,java.lang.String) -> a
+com.superads.android.adsdk.ads.managers.VideoManager -> com.superads.android.adsdk.ads.d.a:
+    com.superads.android.adsdk.ads.managers.VideoManager instance -> c
+    android.media.MediaPlayer mediaPlayer -> a
+    com.superads.android.adsdk.ads.managers.VideoManager$Listener listener -> b
+    void <init>() -> <init>
+    com.superads.android.adsdk.ads.managers.VideoManager getInstance() -> a
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+com.superads.android.adsdk.ads.managers.VideoManager$Listener -> com.superads.android.adsdk.ads.d.a$a:
+    void onPrepared() -> a
+    void onCompletion() -> b
+com.superads.android.adsdk.ads.providers.AdProviderFactory -> com.superads.android.adsdk.ads.providers.a:
+    void <init>() -> <init>
+    com.superads.android.adsdk.ads.providers.AdsProvider createAdProvider(android.content.Context,java.lang.String) -> a
+com.superads.android.adsdk.ads.providers.AdProviderFactory$LocalDeviceConfiguration -> com.superads.android.adsdk.ads.providers.a$a:
+    com.superads.android.adsdk.ads.providers.AdProviderFactory this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.providers.AdProviderFactory) -> <init>
+    java.lang.String getSimCountry(android.content.Context) -> a
+    java.lang.String getNetworkCountry(android.content.Context) -> b
+    java.lang.String getNetworkOperatorName(android.content.Context) -> c
+    java.lang.String getSimOperatorName(android.content.Context) -> d
+    float getDensity(android.content.Context) -> e
+    void <init>(com.superads.android.adsdk.ads.providers.AdProviderFactory,byte) -> <init>
+com.superads.android.adsdk.ads.providers.AdProviderHandler -> com.superads.android.adsdk.ads.providers.b:
+    void <init>(com.superads.android.adsdk.ads.providers.AdsProvider,android.os.Looper) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+    void onFetchDone(com.superads.android.adsdk.ads.providers.models.FetchAdResult) -> a
+com.superads.android.adsdk.ads.providers.AdProviderRequestHandler -> com.superads.android.adsdk.ads.providers.c:
+    void <init>(com.superads.android.adsdk.ads.providers.AdsProvider,android.os.Looper) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+    void notifyAdEvent(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdEvent,com.superads.android.adsdk.ads.providers.models.AdInteractionData) -> a
+com.superads.android.adsdk.ads.providers.AdResourceCache -> com.superads.android.adsdk.ads.providers.d:
+    com.superads.android.adsdk.ads.providers.models.AdService adService -> a
+    void <init>(com.superads.android.adsdk.ads.providers.models.AdService) -> <init>
+    java.io.File fetchCreative(android.content.Context,com.superads.android.adsdk.ads.providers.models.Offer) -> a
+com.superads.android.adsdk.ads.providers.AdsProvider -> com.superads.android.adsdk.ads.providers.e:
+    android.content.Context context -> a
+    java.lang.String publisherId -> c
+    java.lang.String applicationId -> d
+    java.lang.String placementId -> e
+    com.superads.android.adsdk.ads.providers.models.AdService adService -> b
+    com.superads.android.adsdk.ads.providers.AdProviderHandler mainThreadHandler -> f
+    com.superads.android.adsdk.ads.providers.AdProviderRequestHandler backgroundThreadHandler -> g
+    com.superads.android.adsdk.ads.providers.AdResourceCache adResourceCache -> h
+    void <init>(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.superads.android.adsdk.ads.providers.models.AdService) -> <init>
+    void handleAdRequest(android.content.Context,com.superads.android.adsdk.ads.events.enums.AdType,com.superads.android.adsdk.ads.providers.models.AdRequestCallback,java.lang.String) -> a
+    void onAdResponse(com.superads.android.adsdk.ads.providers.models.Offer,com.superads.android.adsdk.ads.providers.models.OfferRequest) -> a
+    com.superads.android.adsdk.ads.providers.models.Ad createAd(com.superads.android.adsdk.ads.providers.models.Offer) -> a
+    void onAdEvent(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdEvent,com.superads.android.adsdk.ads.providers.models.AdInteractionData) -> a
+com.superads.android.adsdk.ads.providers.AdsProvider$1 -> com.superads.android.adsdk.ads.providers.e$1:
+    int[] $SwitchMap$com$superads$android$adsdk$ads$events$enums$AdType -> a
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.providers.ApplicationId -> com.superads.android.adsdk.ads.providers.f:
+    com.superads.android.adsdk.ads.providers.ApplicationId sInstance -> a
+    java.lang.String applicationId -> b
+    java.lang.String get() -> a
+    void <init>(java.lang.String) -> <init>
+com.superads.android.adsdk.ads.providers.PublisherId -> com.superads.android.adsdk.ads.providers.g:
+    com.superads.android.adsdk.ads.providers.PublisherId sInstance -> a
+    java.lang.String publisherId -> b
+    java.lang.String get() -> a
+    void <init>(java.lang.String) -> <init>
+com.superads.android.adsdk.ads.providers.StaticInnerHandlerWrapper -> com.superads.android.adsdk.ads.providers.h:
+    java.lang.ref.WeakReference mOuterInstanceRef -> a
+    void <init>(java.lang.Object) -> <init>
+    void <init>(java.lang.Object,android.os.Looper) -> <init>
+com.superads.android.adsdk.ads.providers.SuperAds -> com.superads.android.adsdk.ads.providers.SuperAds:
+    void <init>() -> <init>
+    void init(android.content.Context,java.lang.String,java.lang.String) -> init
+    java.lang.String genRandomPlacementId() -> genRandomPlacementId
+com.superads.android.adsdk.ads.providers.SuperAdsConfig -> com.superads.android.adsdk.ads.providers.SuperAdsConfig:
+    boolean debug -> debug
+    boolean isChinaMainland -> isChinaMainland
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.providers.aitype.AitypeAdEventDataFactory -> com.superads.android.adsdk.ads.providers.a.a:
+    void <init>() -> <init>
+com.superads.android.adsdk.ads.providers.aitype.AitypeAdEventHandler -> com.superads.android.adsdk.ads.providers.a.b:
+    com.superads.android.adsdk.ads.events.listeners.AdEventListener eventListener -> a
+    com.superads.android.adsdk.ads.providers.models.Ad ad -> b
+    com.superads.android.adsdk.ads.providers.models.AdInteractionData interactionData -> c
+    com.superads.android.adsdk.ads.rendering.view.AdListener listener -> d
+    boolean isShowing -> e
+    void <init>(com.superads.android.adsdk.ads.events.listeners.AdEventListener,com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.providers.models.AdInteractionData) -> <init>
+    void onImpression(long,long) -> a
+    void onAdViewClicked() -> a
+    void onDismissClicked() -> b
+    void onNoLongerVisible(long,long) -> b
+    void updateTimestamps(long,long) -> c
+    void setAdListener(com.superads.android.adsdk.ads.rendering.view.AdListener) -> a
+    void setIsShowing(boolean) -> a
+    void onShowEnded() -> c
+    void onAdEvent(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdEvent) -> a
+    void notifyListener(com.superads.android.adsdk.ads.events.enums.AdEvent) -> a
+com.superads.android.adsdk.ads.providers.aitype.AitypeAdEventHandler$1 -> com.superads.android.adsdk.ads.providers.a.b$1:
+    int[] $SwitchMap$com$superads$android$adsdk$ads$events$enums$AdEvent -> a
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.providers.aitype.AitypeAdService -> com.superads.android.adsdk.ads.providers.a.c:
+    android.content.Context context -> a
+    com.superads.android.adsdk.ads.storage.model.LocalUserData localUserData -> b
+    com.superads.android.adsdk.ads.providers.models.DeviceConfiguration deviceConfiguration -> c
+    com.superads.android.adsdk.ads.providers.models.ProviderHTTPService httpService -> d
+    com.superads.android.adsdk.ads.providers.models.FeedResponseFactory feedResponseFactory -> e
+    com.superads.android.adsdk.ads.providers.models.FeedRequestBuilder feedRequestBuilder -> f
+    com.superads.android.adsdk.ads.providers.models.AdEventDataFactory eventDataFactory -> g
+    com.superads.android.adsdk.ads.providers.models.AdStorage adStorage -> h
+    com.superads.android.adsdk.ads.providers.models.AdDataStorage adDataStorage -> i
+    com.superads.android.adsdk.ads.providers.models.CreativeSupervisor creativeSupervisor -> j
+    void <init>(android.content.Context,com.superads.android.adsdk.ads.storage.model.LocalUserData,com.superads.android.adsdk.ads.providers.models.DeviceConfiguration) -> <init>
+    com.superads.android.adsdk.ads.providers.models.Offer fetchOffer(com.superads.android.adsdk.ads.providers.models.OfferRequest) -> a
+    void handleAdEvent$7af2fac1(com.superads.android.adsdk.ads.events.enums.AdEvent,com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    com.superads.android.adsdk.ads.providers.models.Ad getCachedAd(com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+    void dismissCachedAd$1912f686(com.superads.android.adsdk.ads.providers.models.Ad,int) -> a
+    void onAdCreated(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor createAdViewListener(com.superads.android.adsdk.ads.providers.AdsProvider,com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    com.superads.android.adsdk.ads.providers.models.AdInteractionData getAdInteractionData(com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    com.superads.android.adsdk.ads.providers.models.DownloadedInputStream download(java.lang.String) -> a
+com.superads.android.adsdk.ads.providers.aitype.AitypeCreativeSupervisor -> com.superads.android.adsdk.ads.providers.a.d:
+    android.content.Context context -> a
+    void <init>(android.content.Context) -> <init>
+com.superads.android.adsdk.ads.providers.aitype.AitypeDataBuilderBase -> com.superads.android.adsdk.ads.providers.a.e:
+    void <init>() -> <init>
+    java.util.Map getRequestCommonMap(android.content.Context,com.superads.android.adsdk.ads.storage.model.LocalUserData,com.superads.android.adsdk.ads.providers.models.DeviceConfiguration,long) -> a
+com.superads.android.adsdk.ads.providers.aitype.AitypeFeedRequestBuilder -> com.superads.android.adsdk.ads.providers.a.f:
+    void <init>() -> <init>
+    java.util.Map createFeedRequest(com.superads.android.adsdk.ads.providers.models.OfferRequest,com.superads.android.adsdk.ads.storage.model.LocalUserData,com.superads.android.adsdk.ads.providers.models.DeviceConfiguration) -> b
+    java.lang.Object createFeedRequest(com.superads.android.adsdk.ads.providers.models.OfferRequest,com.superads.android.adsdk.ads.storage.model.LocalUserData,com.superads.android.adsdk.ads.providers.models.DeviceConfiguration) -> a
+com.superads.android.adsdk.ads.providers.aitype.AitypeFeedResponseFactory -> com.superads.android.adsdk.ads.providers.a.g:
+    void <init>() -> <init>
+    com.superads.android.adsdk.ads.providers.models.Offer createFeedFromResponse(com.superads.android.adsdk.ads.providers.models.OfferRequest,java.lang.Object) -> a
+com.superads.android.adsdk.ads.providers.aitype.AitypeHTTPService -> com.superads.android.adsdk.ads.providers.a.h:
+    com.superads.android.adsdk.ads.http.AdsWebService ADS_WEB_SERVICE -> a
+    void <init>() -> <init>
+    org.json.JSONObject getFeedResponse(java.util.Map) -> a
+    void callUrl(java.lang.String,java.util.Map) -> a
+    com.superads.android.adsdk.ads.providers.models.DownloadedInputStream download(java.lang.String) -> a
+    java.lang.Object getFeedResponse(java.lang.Object) -> a
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.providers.aitype.AitypeHTTPService$1 -> com.superads.android.adsdk.ads.providers.a.h$1:
+    com.superads.android.adsdk.ads.providers.aitype.AitypeHTTPService this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.providers.aitype.AitypeHTTPService) -> <init>
+    void onFailure(okhttp3.Call,java.io.IOException) -> onFailure
+    void onResponse(okhttp3.Call,okhttp3.Response) -> onResponse
+com.superads.android.adsdk.ads.providers.aitype.MemoryStorage -> com.superads.android.adsdk.ads.providers.a.i:
+    java.util.Map adCache -> b
+    java.util.Map interactionDataMap -> c
+    java.util.Map adEventExecutorMap -> a
+    com.superads.android.adsdk.ads.providers.aitype.MemoryStorage instance -> d
+    com.superads.android.adsdk.ads.providers.aitype.MemoryStorage getInstance() -> a
+    void <init>() -> <init>
+    com.superads.android.adsdk.ads.providers.models.Ad getAd(com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+    void storeAd(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+    com.superads.android.adsdk.ads.providers.aitype.MemoryStorage$AdCacheKey createCacheKey(com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> b
+    com.superads.android.adsdk.ads.providers.models.AdInteractionData getAdInteractionData(com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    void storeAdInteractionData(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.providers.models.AdInteractionData) -> a
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.providers.aitype.MemoryStorage$AdCacheKey -> com.superads.android.adsdk.ads.providers.a.i$a:
+    com.superads.android.adsdk.ads.events.enums.AdType adType -> b
+    java.lang.String placementId -> c
+    java.lang.String requestTag -> d
+    com.superads.android.adsdk.ads.providers.aitype.MemoryStorage this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.providers.aitype.MemoryStorage,com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> <init>
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    void <init>(com.superads.android.adsdk.ads.providers.aitype.MemoryStorage,com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String,byte) -> <init>
+com.superads.android.adsdk.ads.providers.models.Ad -> com.superads.android.adsdk.ads.providers.models.a:
+    java.lang.String placementId -> a
+    com.superads.android.adsdk.ads.events.enums.AdType adType -> b
+    java.lang.String creativeId -> h
+    java.lang.String adPackageName -> i
+    java.lang.String impressionUrl -> c
+    java.lang.String clickUrl -> d
+    java.lang.String offerId -> j
+    long fetchedTimestamp -> e
+    int priority -> k
+    com.superads.android.adsdk.ads.providers.models.Offer offer -> f
+    java.io.File creativeFile -> g
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.events.enums.AdType,com.superads.android.adsdk.ads.providers.models.Offer) -> <init>
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.events.enums.AdType,com.superads.android.adsdk.ads.providers.models.Offer,java.io.File) -> <init>
+    int getMinWidth(android.content.Context) -> a
+    int getMinHeight(android.content.Context) -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.superads.android.adsdk.ads.providers.models.AdDataStorage -> com.superads.android.adsdk.ads.providers.models.b:
+    com.superads.android.adsdk.ads.providers.models.AdInteractionData getAdInteractionData(com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    void storeAdInteractionData(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.providers.models.AdInteractionData) -> a
+com.superads.android.adsdk.ads.providers.models.AdEventData -> com.superads.android.adsdk.ads.providers.models.c:
+    com.superads.android.adsdk.ads.providers.models.Ad ad -> a
+    com.superads.android.adsdk.ads.events.enums.AdEvent event -> b
+    com.superads.android.adsdk.ads.providers.models.AdInteractionData interactionData -> c
+    void <init>(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdEvent,com.superads.android.adsdk.ads.providers.models.AdInteractionData) -> <init>
+com.superads.android.adsdk.ads.providers.models.AdEventDataFactory -> com.superads.android.adsdk.ads.providers.models.d:
+com.superads.android.adsdk.ads.providers.models.AdInteractionData -> com.superads.android.adsdk.ads.providers.models.e:
+    long lastImpressionStartedTimestamp -> a
+    long lastImpressionTimestamp -> b
+    long totalImpressionTime -> c
+    int impressionCounter -> f
+    boolean hasReportedImpression -> d
+    int dismissReason$5f82e4f4 -> e
+    void <init>() -> <init>
+    void incrementImpressionCounter() -> a
+    void accumulateTotalImpressionTime() -> b
+com.superads.android.adsdk.ads.providers.models.AdRequest -> com.superads.android.adsdk.ads.providers.models.AdRequest:
+    java.lang.String placementId -> placementId
+    void <init>(java.lang.String) -> <init>
+    java.lang.String getPlacementId() -> getPlacementId
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.AdRequest$1) -> <init>
+com.superads.android.adsdk.ads.providers.models.AdRequest$1 -> com.superads.android.adsdk.ads.providers.models.AdRequest$1:
+com.superads.android.adsdk.ads.providers.models.AdRequest$Builder -> com.superads.android.adsdk.ads.providers.models.AdRequest$Builder:
+    java.lang.String placementId -> placementId
+    void <init>(java.lang.String) -> <init>
+    com.superads.android.adsdk.ads.providers.models.AdRequest build() -> build
+com.superads.android.adsdk.ads.providers.models.AdRequestCallback -> com.superads.android.adsdk.ads.providers.models.f:
+    void onAdReady(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> a
+    void onError$13462e() -> a
+com.superads.android.adsdk.ads.providers.models.AdService -> com.superads.android.adsdk.ads.providers.models.g:
+    com.superads.android.adsdk.ads.providers.models.Offer fetchOffer(com.superads.android.adsdk.ads.providers.models.OfferRequest) -> a
+    void handleAdEvent$7af2fac1(com.superads.android.adsdk.ads.events.enums.AdEvent,com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    com.superads.android.adsdk.ads.providers.models.Ad getCachedAd(com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+    void onAdCreated(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor createAdViewListener(com.superads.android.adsdk.ads.providers.AdsProvider,com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    com.superads.android.adsdk.ads.providers.models.AdInteractionData getAdInteractionData(com.superads.android.adsdk.ads.providers.models.Ad) -> a
+    com.superads.android.adsdk.ads.providers.models.DownloadedInputStream download(java.lang.String) -> a
+com.superads.android.adsdk.ads.providers.models.AdStorage -> com.superads.android.adsdk.ads.providers.models.h:
+    com.superads.android.adsdk.ads.providers.models.Ad getAd(com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+    void storeAd(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String) -> a
+com.superads.android.adsdk.ads.providers.models.AppDetails -> com.superads.android.adsdk.ads.providers.models.i:
+    java.lang.String appName -> b
+    java.lang.String storeId -> a
+    java.lang.String urlScheme -> c
+    java.lang.String publisher -> d
+    java.lang.String developer -> e
+    java.lang.Double storeRating -> f
+    java.lang.String category -> g
+    java.lang.String version -> h
+    java.lang.String size -> i
+    java.lang.String ageRating -> j
+    java.lang.String storeDescription -> k
+    java.lang.String storeUrl -> l
+    java.lang.String releaseDate -> m
+    java.lang.Integer totalRatings -> n
+    java.lang.String installs -> o
+    java.lang.String subCategory -> p
+    org.json.JSONArray storeCategories -> q
+    java.lang.String review -> r
+    org.json.JSONArray reviewPros -> s
+    org.json.JSONArray reviewCons -> t
+    void <init>(java.lang.String,java.lang.String) -> <init>
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.superads.android.adsdk.ads.providers.models.BannerAd -> com.superads.android.adsdk.ads.providers.models.j:
+    int creativeMinWidth -> h
+    int creativeMinHeight -> i
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.Offer,int,int) -> <init>
+    int getMinWidth(android.content.Context) -> a
+    int getMinHeight(android.content.Context) -> b
+com.superads.android.adsdk.ads.providers.models.CreativeSupervisor -> com.superads.android.adsdk.ads.providers.models.k:
+com.superads.android.adsdk.ads.providers.models.DeviceConfiguration -> com.superads.android.adsdk.ads.providers.models.l:
+    java.lang.String getSimCountry(android.content.Context) -> a
+    java.lang.String getNetworkCountry(android.content.Context) -> b
+    java.lang.String getNetworkOperatorName(android.content.Context) -> c
+    java.lang.String getSimOperatorName(android.content.Context) -> d
+    float getDensity(android.content.Context) -> e
+com.superads.android.adsdk.ads.providers.models.DownloadedInputStream -> com.superads.android.adsdk.ads.providers.models.m:
+    java.io.InputStream inputStream -> a
+    long size -> b
+    void <init>(java.io.InputStream,long) -> <init>
+com.superads.android.adsdk.ads.providers.models.FeedRequestBuilder -> com.superads.android.adsdk.ads.providers.models.n:
+    java.lang.Object createFeedRequest(com.superads.android.adsdk.ads.providers.models.OfferRequest,com.superads.android.adsdk.ads.storage.model.LocalUserData,com.superads.android.adsdk.ads.providers.models.DeviceConfiguration) -> a
+com.superads.android.adsdk.ads.providers.models.FeedResponseFactory -> com.superads.android.adsdk.ads.providers.models.o:
+    com.superads.android.adsdk.ads.providers.models.Offer createFeedFromResponse(com.superads.android.adsdk.ads.providers.models.OfferRequest,java.lang.Object) -> a
+com.superads.android.adsdk.ads.providers.models.FetchAdResult -> com.superads.android.adsdk.ads.providers.models.p:
+    com.superads.android.adsdk.ads.providers.models.Ad ad -> a
+    com.superads.android.adsdk.ads.providers.models.OfferRequest offerRequest -> b
+    void <init>(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.providers.models.OfferRequest) -> <init>
+com.superads.android.adsdk.ads.providers.models.InterstitialAd -> com.superads.android.adsdk.ads.providers.models.q:
+    int creativeMinWidth -> h
+    int creativeMinHeight -> i
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.Offer,java.io.File) -> <init>
+    int getMinWidth(android.content.Context) -> a
+    int getMinHeight(android.content.Context) -> b
+com.superads.android.adsdk.ads.providers.models.NativeAd -> com.superads.android.adsdk.ads.providers.models.NativeAd:
+    java.lang.String iconUrl -> iconUrl
+    java.lang.String bigImgUrl -> bigImgUrl
+    java.lang.String title -> title
+    java.lang.String desc -> desc
+    java.lang.String ctaText -> ctaText
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor adEventExecutor -> adEventExecutor
+    android.content.Context context -> context
+    void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor,android.content.Context) -> <init>
+    void renderIcon(android.widget.ImageView) -> renderIcon
+    void renderBigImgUrl(android.widget.ImageView) -> renderBigImgUrl
+    void renderTitle(android.widget.TextView) -> renderTitle
+    void renderDesc(android.widget.TextView) -> renderDesc
+    void renderCta(android.widget.TextView) -> renderCta
+    void registerViewForInteraction(android.view.ViewGroup) -> registerViewForInteraction
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor access$000(com.superads.android.adsdk.ads.providers.models.NativeAd) -> access$000
+com.superads.android.adsdk.ads.providers.models.NativeAd$1 -> com.superads.android.adsdk.ads.providers.models.NativeAd$1:
+    com.superads.android.adsdk.ads.providers.models.NativeAd this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.providers.models.NativeAd) -> <init>
+    void onClick(android.view.View) -> onClick
+com.superads.android.adsdk.ads.providers.models.NativeAd$AdView -> com.superads.android.adsdk.ads.providers.models.NativeAd$a:
+    com.superads.android.adsdk.ads.providers.models.NativeAd this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.providers.models.NativeAd,android.content.Context,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor,android.view.View) -> <init>
+com.superads.android.adsdk.ads.providers.models.NativeAdProvider -> com.superads.android.adsdk.ads.providers.models.r:
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.Offer) -> <init>
+    int getMinWidth(android.content.Context) -> a
+    int getMinHeight(android.content.Context) -> b
+com.superads.android.adsdk.ads.providers.models.NativeAdRequest -> com.superads.android.adsdk.ads.providers.models.NativeAdRequest:
+    java.lang.String placementId -> placementId
+    com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener nativeAdLoadedListener -> nativeAdLoadedListener
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener) -> <init>
+    java.lang.String getPlacementId() -> getPlacementId
+    com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener getNativeAdLoadedListener() -> getNativeAdLoadedListener
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener,com.superads.android.adsdk.ads.providers.models.NativeAdRequest$1) -> <init>
+com.superads.android.adsdk.ads.providers.models.NativeAdRequest$1 -> com.superads.android.adsdk.ads.providers.models.NativeAdRequest$1:
+com.superads.android.adsdk.ads.providers.models.NativeAdRequest$Builder -> com.superads.android.adsdk.ads.providers.models.NativeAdRequest$Builder:
+    java.lang.String placementId -> placementId
+    com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener nativeAdLoadedListener -> nativeAdLoadedListener
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener) -> <init>
+    com.superads.android.adsdk.ads.providers.models.NativeAdRequest build() -> build
+com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener -> com.superads.android.adsdk.ads.providers.models.NativeAdRequest$OnNativeAdLoadedListener:
+    void onNativeAdLoaded(com.superads.android.adsdk.ads.providers.models.NativeAd) -> onNativeAdLoaded
+com.superads.android.adsdk.ads.providers.models.Offer -> com.superads.android.adsdk.ads.providers.models.s:
+    com.superads.android.adsdk.ads.events.enums.AdType adType -> a
+    java.lang.String impressionUrl -> b
+    java.lang.String clickUrl -> c
+    java.lang.Double payout -> k
+    java.lang.String callToActionText -> d
+    java.lang.String title -> e
+    java.lang.String description -> f
+    java.lang.String bannerUrl -> g
+    java.lang.String iconUrl -> h
+    java.lang.String creativeId -> i
+    java.lang.String offerId -> l
+    com.superads.android.adsdk.ads.providers.models.AppDetails appDetails -> m
+    int videoDuration -> j
+    void <init>(com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.superads.android.adsdk.ads.providers.models.AppDetails,int) -> <init>
+    java.lang.String getPackageName() -> a
+    java.lang.String getOfferId() -> b
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.superads.android.adsdk.ads.providers.models.OfferRequest -> com.superads.android.adsdk.ads.providers.models.t:
+    android.content.Context context -> a
+    java.lang.String publisherId -> b
+    java.lang.String applicationId -> c
+    com.superads.android.adsdk.ads.events.enums.AdType adType -> d
+    java.lang.String placementId -> e
+    int priority -> f
+    java.lang.String requestTag -> g
+    com.superads.android.adsdk.ads.providers.models.AdRequestCallback adRequestCallback -> h
+    int requestedWidth -> i
+    int requestedHeight -> j
+    void <init>(android.content.Context,java.lang.String,java.lang.String,com.superads.android.adsdk.ads.events.enums.AdType,java.lang.String,java.lang.String,com.superads.android.adsdk.ads.providers.models.AdRequestCallback,int,int) -> <init>
+com.superads.android.adsdk.ads.providers.models.ProviderFactory -> com.superads.android.adsdk.ads.providers.models.u:
+    com.superads.android.adsdk.ads.providers.AdsProvider createAdProvider(android.content.Context,java.lang.String) -> a
+com.superads.android.adsdk.ads.providers.models.ProviderHTTPService -> com.superads.android.adsdk.ads.providers.models.v:
+    java.lang.Object getFeedResponse(java.lang.Object) -> a
+    void callUrl(java.lang.String,java.util.Map) -> a
+    com.superads.android.adsdk.ads.providers.models.DownloadedInputStream download(java.lang.String) -> a
+com.superads.android.adsdk.ads.providers.models.VideoAd -> com.superads.android.adsdk.ads.providers.models.w:
+    int creativeMinWidth -> h
+    int creativeMinHeight -> i
+    void <init>(java.lang.String,com.superads.android.adsdk.ads.providers.models.Offer,java.io.File) -> <init>
+    int getMinWidth(android.content.Context) -> a
+    int getMinHeight(android.content.Context) -> b
+com.superads.android.adsdk.ads.rendering.models.AdEventExecutor -> com.superads.android.adsdk.ads.rendering.a.a:
+    void onImpression(long,long) -> a
+    void onAdViewClicked() -> a
+    void onDismissClicked() -> b
+    void onNoLongerVisible(long,long) -> b
+    void setAdListener(com.superads.android.adsdk.ads.rendering.view.AdListener) -> a
+com.superads.android.adsdk.ads.rendering.view.AdEventReportingViewContainer -> com.superads.android.adsdk.ads.rendering.view.a:
+    com.superads.android.adsdk.ads.providers.models.Ad ad -> b
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor adEventExecutor -> c
+    long lastImpressionStartTimestamp -> a
+    long lastImpressionTimestamp -> d
+    int minVisibleWidth -> e
+    int minVisibleHeight -> f
+    com.superads.android.adsdk.ads.rendering.view.AdViewHandler handler -> g
+    void <init>(android.content.Context,com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void checkVisibility() -> c
+    void onFinishInflate() -> onFinishInflate
+    void setVisibility(int) -> setVisibility
+    void onNoLongerVisible() -> a
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void setMinVisibleWidth(int) -> setMinVisibleWidth
+    void setMinVisibleHeight(int) -> setMinVisibleHeight
+    void destroy() -> d
+com.superads.android.adsdk.ads.rendering.view.AdListener -> com.superads.android.adsdk.ads.rendering.view.AdListener:
+    void <init>() -> <init>
+    void onAdLoaded() -> onAdLoaded
+    void onAdFailedToLoad(int) -> onAdFailedToLoad
+    void onAdClosed() -> onAdClosed
+    void onAdClicked() -> onAdClicked
+    void onAdImpression() -> onAdImpression
+com.superads.android.adsdk.ads.rendering.view.AdViewHandler -> com.superads.android.adsdk.ads.rendering.view.b:
+    void <init>(com.superads.android.adsdk.ads.rendering.view.AdEventReportingViewContainer) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+    void start() -> a
+com.superads.android.adsdk.ads.rendering.view.DismissButton -> com.superads.android.adsdk.ads.rendering.view.c:
+    android.view.View dismissView -> a
+    android.widget.TextView countView -> b
+    int mCount -> c
+    android.os.Handler handler -> d
+    void <init>(android.content.Context,int) -> <init>
+    void <init>(android.content.Context) -> <init>
+    void startCount() -> a
+com.superads.android.adsdk.ads.rendering.view.DismissButton$1 -> com.superads.android.adsdk.ads.rendering.view.c$1:
+    com.superads.android.adsdk.ads.rendering.view.DismissButton this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.rendering.view.DismissButton,android.os.Looper) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader -> com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader:
+    java.lang.String RESULT_RECEIVER -> RESULT_RECEIVER
+    android.app.Activity activity -> activity
+    java.lang.String requestTag -> requestTag
+    com.superads.android.adsdk.ads.providers.models.Ad ad -> ad
+    boolean success -> success
+    void <init>(android.app.Activity) -> <init>
+    void setRequestTag(java.lang.String) -> setRequestTag
+    void loadAd(com.superads.android.adsdk.ads.providers.models.AdRequest,com.superads.android.adsdk.ads.rendering.view.AdListener) -> loadAd
+    void show() -> show
+    boolean isloaded() -> isloaded
+    boolean access$002(com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader,boolean) -> access$002
+com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader$1 -> com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader$1:
+    com.superads.android.adsdk.ads.rendering.view.AdListener val$listener -> a
+    com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader this$0 -> b
+    void <init>(com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader,com.superads.android.adsdk.ads.rendering.view.AdListener) -> <init>
+    void onAdReady(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> a
+    void onError$13462e() -> a
+com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader$2 -> com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader$2:
+    com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.rendering.view.InterstitialAdLoader,android.os.Handler) -> <init>
+    void onReceiveResult(int,android.os.Bundle) -> onReceiveResult
+com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity -> com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity:
+    android.os.ResultReceiver resultReceiver -> b
+    com.superads.android.adsdk.ads.rendering.view.AdEventReportingViewContainer adView -> a
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void onDestroy() -> onDestroy
+com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$AdView -> com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$a:
+    android.widget.ImageView imageView -> a
+    android.graphics.Bitmap bmImg -> d
+    com.superads.android.adsdk.ads.rendering.view.DismissButton btnDismiss -> e
+    com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity this$0 -> f
+    void <init>(com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity,android.content.Context,com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void destroy() -> d
+com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$AdView$1 -> com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$a$1:
+    com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity val$this$0 -> a
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor val$adEventExecutor -> b
+    com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$AdView this$1 -> c
+    void <init>(com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$AdView,com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void onClick(android.view.View) -> onClick
+com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$AdView$2 -> com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$a$2:
+    com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity val$this$0 -> a
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor val$adEventExecutor -> b
+    com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$AdView this$1 -> c
+    void <init>(com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity$AdView,com.superads.android.adsdk.ads.rendering.view.InterstitialImageActivity,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void onClick(android.view.View) -> onClick
+com.superads.android.adsdk.ads.rendering.view.NativeAdLoader -> com.superads.android.adsdk.ads.rendering.view.NativeAdLoader:
+    android.content.Context context -> context
+    java.lang.String requestTag -> requestTag
+    void <init>(android.content.Context) -> <init>
+    void loadAd(com.superads.android.adsdk.ads.providers.models.NativeAdRequest,com.superads.android.adsdk.ads.rendering.view.AdListener) -> loadAd
+    void setRequestTag(java.lang.String) -> setRequestTag
+    android.content.Context access$000(com.superads.android.adsdk.ads.rendering.view.NativeAdLoader) -> access$000
+com.superads.android.adsdk.ads.rendering.view.NativeAdLoader$1 -> com.superads.android.adsdk.ads.rendering.view.NativeAdLoader$1:
+    com.superads.android.adsdk.ads.providers.models.NativeAdRequest val$adRequest -> a
+    com.superads.android.adsdk.ads.rendering.view.AdListener val$listener -> b
+    com.superads.android.adsdk.ads.rendering.view.NativeAdLoader this$0 -> c
+    void <init>(com.superads.android.adsdk.ads.rendering.view.NativeAdLoader,com.superads.android.adsdk.ads.providers.models.NativeAdRequest,com.superads.android.adsdk.ads.rendering.view.AdListener) -> <init>
+    void onAdReady(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> a
+    void onError$13462e() -> a
+com.superads.android.adsdk.ads.rendering.view.VideoActivity -> com.superads.android.adsdk.ads.rendering.view.VideoActivity:
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity$DismissListener dismissListener -> a
+    void <init>() -> <init>
+    void onDestroy() -> onDestroy
+com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView -> com.superads.android.adsdk.ads.rendering.view.VideoActivity$a:
+    com.superads.android.adsdk.ads.rendering.view.DismissButton btnDismiss -> a
+    android.view.View surfaceView -> d
+    android.widget.ImageView companionView -> e
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity this$0 -> f
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoActivity,android.content.Context,com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void onPrepared() -> a
+    void onCompletion() -> b
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoActivity,android.content.Context,com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor,byte) -> <init>
+com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView$1 -> com.superads.android.adsdk.ads.rendering.view.VideoActivity$a$1:
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity val$this$0 -> a
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor val$adEventExecutor -> b
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView this$1 -> c
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView,com.superads.android.adsdk.ads.rendering.view.VideoActivity,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void onClick(android.view.View) -> onClick
+com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView$2 -> com.superads.android.adsdk.ads.rendering.view.VideoActivity$a$2:
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity val$this$0 -> a
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor val$adEventExecutor -> b
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView this$1 -> c
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView,com.superads.android.adsdk.ads.rendering.view.VideoActivity,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void onClick(android.view.View) -> onClick
+com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView$3 -> com.superads.android.adsdk.ads.rendering.view.VideoActivity$a$3:
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity val$this$0 -> a
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor val$adEventExecutor -> b
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView this$1 -> c
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView,com.superads.android.adsdk.ads.rendering.view.VideoActivity,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> <init>
+    void onClick(android.view.View) -> onClick
+com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView$4 -> com.superads.android.adsdk.ads.rendering.view.VideoActivity$a$4:
+    android.view.SurfaceView val$surfaceView -> a
+    com.superads.android.adsdk.ads.providers.models.Ad val$ad -> b
+    com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView this$1 -> c
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoActivity$AdView,android.view.SurfaceView,com.superads.android.adsdk.ads.providers.models.Ad) -> <init>
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+com.superads.android.adsdk.ads.rendering.view.VideoActivity$DismissListener -> com.superads.android.adsdk.ads.rendering.view.VideoActivity$b:
+    void onDismiss() -> onDismiss
+com.superads.android.adsdk.ads.rendering.view.VideoAdLoader -> com.superads.android.adsdk.ads.rendering.view.VideoAdLoader:
+    android.app.Activity activity -> activity
+    android.app.Application$ActivityLifecycleCallbacks activityLifecycleCallbacks -> activityLifecycleCallbacks
+    java.lang.String requestTag -> requestTag
+    com.superads.android.adsdk.ads.providers.models.Ad ad -> ad
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor adEventExecutor -> adEventExecutor
+    boolean success -> success
+    void <init>(android.app.Activity) -> <init>
+    void setRequestTag(java.lang.String) -> setRequestTag
+    void loadAd(com.superads.android.adsdk.ads.providers.models.AdRequest,com.superads.android.adsdk.ads.rendering.view.AdListener) -> loadAd
+    void setAd(com.superads.android.adsdk.ads.providers.models.Ad) -> setAd
+    void setAdEventExecutor(com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> setAdEventExecutor
+    void show() -> show
+    boolean isloaded() -> isloaded
+    com.superads.android.adsdk.ads.providers.models.Ad access$000(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader) -> access$000
+    com.superads.android.adsdk.ads.rendering.models.AdEventExecutor access$100(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader) -> access$100
+    android.app.Application$ActivityLifecycleCallbacks access$200(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader) -> access$200
+    void access$300(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader,com.superads.android.adsdk.ads.providers.models.Ad) -> access$300
+    void access$400(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> access$400
+    boolean access$502(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader,boolean) -> access$502
+com.superads.android.adsdk.ads.rendering.view.VideoAdLoader$1 -> com.superads.android.adsdk.ads.rendering.view.VideoAdLoader$1:
+    com.superads.android.adsdk.ads.rendering.view.VideoAdLoader this$0 -> a
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader) -> <init>
+    void onActivityCreated(android.app.Activity,android.os.Bundle) -> onActivityCreated
+    void onActivityStarted(android.app.Activity) -> onActivityStarted
+    void onActivityResumed(android.app.Activity) -> onActivityResumed
+    void onActivityPaused(android.app.Activity) -> onActivityPaused
+    void onActivityStopped(android.app.Activity) -> onActivityStopped
+    void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle) -> onActivitySaveInstanceState
+    void onActivityDestroyed(android.app.Activity) -> onActivityDestroyed
+    void lambda$onActivityResumed$0(com.superads.android.adsdk.ads.rendering.view.VideoActivity) -> a
+com.superads.android.adsdk.ads.rendering.view.VideoAdLoader$2 -> com.superads.android.adsdk.ads.rendering.view.VideoAdLoader$2:
+    com.superads.android.adsdk.ads.rendering.view.AdListener val$listener -> a
+    com.superads.android.adsdk.ads.rendering.view.VideoAdLoader this$0 -> b
+    void <init>(com.superads.android.adsdk.ads.rendering.view.VideoAdLoader,com.superads.android.adsdk.ads.rendering.view.AdListener) -> <init>
+    void onAdReady(com.superads.android.adsdk.ads.providers.models.Ad,com.superads.android.adsdk.ads.rendering.models.AdEventExecutor) -> a
+    void onError$13462e() -> a
+com.superads.android.adsdk.ads.rendering.view.ViewAdProviders -> com.superads.android.adsdk.ads.rendering.view.d:
+    com.superads.android.adsdk.ads.providers.models.ProviderFactory providerFactory -> a
+    com.superads.android.adsdk.ads.providers.AdsProvider get(android.content.Context,java.lang.String) -> a
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.storage.model.LocalUserData -> com.superads.android.adsdk.ads.e.a.a:
+    java.lang.String userId -> a
+    int userGroup -> b
+    com.superads.android.adsdk.ads.storage.model.UserGender userGender -> c
+    int userAge -> d
+    void <init>(android.content.Context) -> <init>
+com.superads.android.adsdk.ads.storage.model.UserGender -> com.superads.android.adsdk.ads.e.a.b:
+    com.superads.android.adsdk.ads.storage.model.UserGender UNKNOWN -> a
+    com.superads.android.adsdk.ads.storage.model.UserGender MALE -> b
+    com.superads.android.adsdk.ads.storage.model.UserGender FEMALE -> c
+    com.superads.android.adsdk.ads.storage.model.UserGender[] $VALUES -> d
+    com.superads.android.adsdk.ads.storage.model.UserGender[] values() -> values
+    com.superads.android.adsdk.ads.storage.model.UserGender valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int) -> <init>
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.utils.AdIdUtil -> com.superads.android.adsdk.ads.utils.a:
+    java.lang.String sAdvertisingIdClientClassName -> a
+    boolean isRrefreshing -> b
+    void refreshAdId(android.content.Context) -> a
+    java.lang.String getAdId(android.content.Context) -> b
+    java.lang.String reflectedGetAdvertisingId$6d759e65(java.lang.Object) -> c
+    boolean reflectedIsLimitAdTrackingEnabled$4cfd3ce7(java.lang.Object) -> d
+    java.lang.String access$000() -> a
+    java.lang.String access$100$6d759e65(java.lang.Object) -> a
+    boolean access$200$4cfd3ce7(java.lang.Object) -> b
+    boolean access$302$138603() -> b
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.utils.AdIdUtil$RefreshAdIdAsyncTask -> com.superads.android.adsdk.ads.utils.a$a:
+    java.lang.ref.WeakReference mContextWeakReference -> a
+    void <init>(android.content.Context) -> <init>
+    java.lang.Void doInBackground$10299ca() -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.superads.android.adsdk.ads.utils.ApplicationUrls -> com.superads.android.adsdk.ads.utils.b:
+    okhttp3.OkHttpClient OK_HTTP_CLIENT -> a
+    java.lang.String AD_SERVER_URL -> b
+    javax.net.ssl.SSLSocketFactory getSSLSocketFactory() -> a
+    javax.net.ssl.HostnameVerifier getHostnameVerifier() -> b
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.utils.ApplicationUrls$1 -> com.superads.android.adsdk.ads.utils.b$1:
+    void <init>() -> <init>
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+com.superads.android.adsdk.ads.utils.ApplicationUrls$2 -> com.superads.android.adsdk.ads.utils.b$2:
+    void <init>() -> <init>
+    boolean verify(java.lang.String,javax.net.ssl.SSLSession) -> verify
+com.superads.android.adsdk.ads.utils.ChinaMainlandUtil -> com.superads.android.adsdk.ads.utils.c:
+    java.lang.String getIMEI(android.content.Context) -> a
+    java.lang.String getAndroidId(android.content.Context) -> b
+com.superads.android.adsdk.ads.utils.CryptoUtils -> com.superads.android.adsdk.ads.utils.CryptoUtils:
+    com.superads.android.adsdk.ads.utils.CryptoUtils sInstance -> sInstance
+    java.lang.String key -> key
+    void <init>() -> <init>
+    com.superads.android.adsdk.ads.utils.CryptoUtils getInstance() -> getInstance
+    void readKeyFromAsset(android.content.Context) -> readKeyFromAsset
+    byte[] encrypt(byte[]) -> encrypt
+    byte[] nativeEncrypt(java.lang.String,byte[]) -> nativeEncrypt
+    java.security.interfaces.RSAPublicKey getPublicKey(java.lang.String) -> getPublicKey
+    byte[] publicEncrypt(java.security.interfaces.RSAPublicKey,byte[]) -> publicEncrypt
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.utils.DeviceAddressUtil -> com.superads.android.adsdk.ads.utils.d:
+    java.lang.String getIPAddress$56aeb37f() -> a
+com.superads.android.adsdk.ads.utils.FileUtils -> com.superads.android.adsdk.ads.utils.e:
+    boolean writeFileToDisk(java.io.InputStream,long,java.io.File) -> a
+    void safeClose(java.io.Closeable) -> a
+com.superads.android.adsdk.ads.utils.GraphicUtils -> com.superads.android.adsdk.ads.utils.f:
+    int[] EMPTY_STATE -> a
+    float mDensityFactor -> b
+    int mRefreshRate -> c
+    boolean isPortrait(android.content.Context) -> a
+    float getDensityFactor(android.content.Context) -> b
+    int getScaledPixels(android.content.Context,int) -> a
+    int[] getScreenDimens(android.content.Context) -> c
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode getDeviceDensityCode(android.content.Context) -> d
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode -> com.superads.android.adsdk.ads.utils.f$a:
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode LDPI -> a
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode MDPI -> b
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode HDPI -> c
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode XHDPI -> d
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode XXHDPI -> e
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode XXXHDPI -> f
+    int intValue -> g
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode[] $VALUES -> h
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode[] values() -> values
+    com.superads.android.adsdk.ads.utils.GraphicUtils$DeviceDensityCode valueOf(java.lang.String) -> valueOf
+    void <init>(java.lang.String,int,int) -> <init>
+    void <clinit>() -> <clinit>
+com.superads.android.adsdk.ads.utils.MD5Util -> com.superads.android.adsdk.ads.utils.g:
+    java.lang.String encrypt(java.lang.String) -> a
+com.superads.android.adsdk.ads.utils.PackageFinder -> com.superads.android.adsdk.ads.utils.h:
+    android.content.pm.PackageInfo getPackageInfo(android.content.Context,java.lang.String) -> a
+com.superads.android.adsdk.ads.utils.Reflection -> com.superads.android.adsdk.ads.utils.i:
+    java.lang.reflect.Method getDeclaredMethodWithTraversal(java.lang.Class,java.lang.String,java.lang.Class[]) -> a
+com.superads.android.adsdk.ads.utils.Reflection$MethodBuilder -> com.superads.android.adsdk.ads.utils.i$a:
+    java.lang.Object mInstance -> e
+    java.lang.String mMethodName -> f
+    java.lang.Class mClass -> a
+    java.util.List mParameterClasses -> b
+    java.util.List mParameters -> c
+    boolean mIsAccessible -> g
+    boolean mIsStatic -> d
+    void <init>(java.lang.Object,java.lang.String) -> <init>
+    java.lang.Object execute() -> a
+com.superads.android.adsdk.ads.utils.StringUtils -> com.superads.android.adsdk.ads.utils.j:
+    boolean stringIsValid(java.lang.CharSequence) -> a
+com.superads.android.adsdk.ads.utils.UserDataUtil -> com.superads.android.adsdk.ads.utils.k:
+    java.lang.String getNetworkOperatorName(android.content.Context) -> a
+    java.lang.String getSimOperatorName(android.content.Context) -> b
+    java.lang.String getSimCountry(android.content.Context) -> c
+    java.lang.String getNetworkCountry(android.content.Context) -> d
+com.superads.android.adsdk.ads.utils.WebUtils -> com.superads.android.adsdk.ads.utils.l:
+    java.lang.Boolean isWifiConnected(android.content.Context) -> a
+    android.net.NetworkInfo getNetworkInfo(android.content.Context) -> c
+    java.lang.Boolean isConnectedFast(android.content.Context) -> b
+    boolean isConnectionFast(int,int) -> a
