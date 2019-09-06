@@ -1,0 +1,92 @@
+### 3. **Request Interstitial Ad**
+#### POST Request URL：https://superads-sdk-gateway.superadsprod.net/api/bid/banner
+#### Request Headers：
+| KEY        | VALUE   |  DESCRIPTION  |
+| --------   | -----:  | :----:  |
+| Content-Type     | application/json |        |
+#### Request Body：
+```
+{
+    "id": "YOUR_PLACEMENT_ID_HERE@d0ef1135-02a0-471d-8219-4162d71ecf1a",
+    "app": {
+        "bundle": "com.aitype.android.ads",
+        "id": "31",
+        "name": "App_Name",
+        "publisher": {
+            "id": "1140",
+            "name": "Publisher_Name"
+        },
+        "storeurl": "https://play.google.com/store/apps/details?id=com.aitype.android&hl=en",
+        "ver": 1
+    },
+    "device": {
+        "connectiontype": 2,
+        "devicetype": 1,
+        "w": 1080,
+        "h": 1794,
+        "hwv": "walleye",
+        "carrier": "",
+        "language": "zh_CN_#Hans",
+        "model": "Pixel 2",
+        "os": "Android",
+        "osv": "8.1.0",
+        "pxratio": 2.625,
+        "make": "google",
+        "ua": "Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 Build/OPM2.171026.006.G1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36",
+        "geo": {
+            "country": "CN"
+        }
+    },
+    "imp": [
+        {
+            "banner": {
+                "w": 1024,
+                "h": 768
+            },
+            "displaymanagerver": "18",
+            "instl": 1
+        }
+    ],
+    "user": {
+        "id": "af49bdc2-b63d-4980-b74d-2f346efd43c3"
+    }
+}
+```
+
+imp：
+| KEY        | VALUE   |  DESCRIPTION  |
+| --------   | -----:  | :----:  |
+| displaymanagerver     | 20 |        |
+| instl     | 1 | 0：no interstitial(banner), 1：interstitial       |
+
+banner：
+| KEY        | VALUE   |  DESCRIPTION  |
+| --------   | -----:  | :----:  |
+| w     | 1024 | interstitial ad width       |
+| h     | 768 | interstitial ad height       |
+
+#### reponse body：
+```
+{
+    "id": "YOUR_PLACEMENT_ID_HERE@d0ef1135-02a0-471d-8219-4162d71ecf1a",
+    "seatbid": [
+        {
+            "bid": [
+                {
+                    "id": "YOUR_PLACEMENT_ID_HERE@d0ef1135-02a0-471d-8219-4162d71ecf1a",
+                    "price": 0,
+                    "nurl": null,
+                    "adm": "<a href=\"https://superads-sdk-gateway.superads-staging.net/api/tracking/click?pbu=aHR0cHM6Ly9jbG91ZC10cmFjay5zdXBlcmFkcy5jbi9pbmRleC5waHA_Y2FtcD03NiZjcmVhdGl2ZV9pZD0yOTAmYXBwX2lkPTMzJmFkX3NldF9pZD0xMjMmY2hfaWQ9MTE1NSZ1c2VyX2lkPWFmNDliZGMyLWI2M2QtNDk4MC1iNzRkLTJmMzQ2ZWZkNDNjMw==\"><img src=\"https://d3niwjjcw9coqg.cloudfront.net/95e478c4d986ca4d7979c57160f45277.jpg\" /></a>",
+                    "ext": {
+                        "eventsUrls": {
+                            "impression": "https://superads-sdk-gateway.superads-staging.net/api/tracking/impression?pbu=aHR0cDovL3Nka3RyYWNraW5nLnN1cGVyYWRzLmNuL3JlY29yZEltcHJlc3Npb24_Y2FtcD03NiZjcmVhdGl2ZV9pZD0yOTAmYXBwX2lkPTMzJmFkX3NldF9pZD0xMjMmY2hfaWQ9MTE1NSZ1c2VyX2lkPWFmNDliZGMyLWI2M2QtNDk4MC1iNzRkLTJmMzQ2ZWZkNDNjMw==",
+                            "click": "https://superads-sdk-gateway.superads-staging.net/api/tracking/click?pbu=aHR0cHM6Ly9jbG91ZC10cmFjay5zdXBlcmFkcy5jbi9pbmRleC5waHA_Y2FtcD03NiZjcmVhdGl2ZV9pZD0yOTAmYXBwX2lkPTMzJmFkX3NldF9pZD0xMjMmY2hfaWQ9MTE1NSZ1c2VyX2lkPWFmNDliZGMyLWI2M2QtNDk4MC1iNzRkLTJmMzQ2ZWZkNDNjMw=="
+                        }
+                    },
+                    "impid": null
+                }
+            ]
+        }
+    ]
+}
+```

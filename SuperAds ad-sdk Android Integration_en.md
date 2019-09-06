@@ -1,24 +1,22 @@
-# SuperAds ad-sdk Android SDK 接入指南
+# SuperAds ad-sdk Android SDK Integration Document
 
-SuperADS广告sdk提供了横幅广告（Banner），插屏广告（Interstital），原生广告（Native Banner, Native Feed），视频广告（Video）等4种广告形式，通过集成广告sdk展示广告可以获得收益。本文描述了Android开发者如何集成sdk和展示广告。
+SuperADS ad-sdk SDK provides Banner Ad, Interstital Ad, Native Banner, Native Feed Ad, Video Ad.
 
-详细的接入demo示例代码可以：https://github.com/156076769/superads_standalone_demo
+You can see a full demo with source codes in github: https://github.com/156076769/superads_standalone_demo
 Demo APK: https://raw.githubusercontent.com/156076769/superads_standalone_demo/master/demo.apk
 
 ---
 
-**1)	集成前获取PublisherId和AppId**
-SuperADS为每个开发者分配一个Publisher Id。在集成sdk前，请联系SuperADS运营获取此Id。
+**1)	First of all you MUST apply a publisher id and application id from SuperADS**
 
-**2)	依赖sdk和初始化**
+**2)	Dependences**
 ```
-//SuperADS广告SDK需要的
 implementation 'com.superads.android:adsdk:0.2.4'
 implementation 'com.squareup.retrofit2:retrofit:2.6.0'
 implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 ```
 
-**3)	混淆配置**
+**3)	Proguard**
 ```
 -keep class cn.superads.sdk.providers.SuperAds { *; }
 -keep class cn.superads.sdk.providers.models.AdRequest { *; }
@@ -36,17 +34,17 @@ implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 
 ```
 
-**4)	 初始化**
+**4)	 SDK Initial**
 ```
-SuperAds.init(context, "分配给你的publisherId", "分配给你的AppId"); 
+SuperAds.init(context, "your publisherId", "your AppId"); 
 ```
-建议在application的onCreate里面调用此初始化
+We sugguest you invoke it in Application onCreate
 
-**5)	 请求和展示横幅广告**
+**5)	 Request and show a Banner Ad**
 
 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 
-第一步：在你要展示广告的页面布局中加入容纳广告的FrameLayout，并且将此FrameLayout放在顶部或者底部。
+Step 1: add a FrameLayout in where you show the banner
 ```
     <FrameLayout
         android:id="@+id/card_banner"
@@ -55,7 +53,7 @@ SuperAds.init(context, "分配给你的publisherId", "分配给你的AppId");
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 ```
-第二步：调用请求接口，在回调中展示view
+Step 2: call the request interface, when callback, show the Ad
 ```
 final AdView adView = new AdView(this);
             AdRequest.Builder builder = new AdRequest.Builder("YOUR_PLACEMENT_ID_HERE");
@@ -74,12 +72,12 @@ final AdView adView = new AdView(this);
             });
 ```
 
-**5)	 请求和展示插屏广告**
-插屏广告是1024*768（竖屏下）的广告，全屏显示。
+**5)	 Request and show a Interstital Ad**
+Interstital Ad is showing in the full screen.
 
 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 
-请求广告：
+Step 1：Request the Ad from server
 ```
             AdRequest.Builder builder = new AdRequest.Builder("YOUR_PLACEMENT_ID_HERE");
             builder.adSize(InterstitialSize.TABLET_INTERSTITIAL_1024x768);
@@ -101,25 +99,26 @@ final AdView adView = new AdView(this);
                 }
             });
 ```
-请求成功后展示广告
+Step 2: when getting response successfully, show the Ad
 ```
             if (interstitialAd != null)
                 interstitialAd.show();
 ```
 
-**6)	 请求和展示原生广告（信息流）**
-原生广告是嵌入到你的feed流中的广告样式，也叫信息流广告，分为Native Banner和Native Feed两种。
+**6)	 Request a Native Ad(Feed Ad)**
+Native Ad(Feed Ad) is a Ad that embedding in your origin listview/recycleview
+
 
 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 
-服务器返回的原生广告Ad素材包含下面4或者3个元素：
-1. App Icon：应用小图标
-2. APP Title：应用名称
-3. APP Description：应用描述
-4. APP Big Image：应用大图（Banner形式没有，Feed形式有）
-开发者可以用这4或者3个元素来构建一个Recycle View Item，嵌入到自己原来的list中，选择合适的位置展示，并且适配成自己UI风格使其显示自然。
-下面是一个接入实例：
-第一步：定义一个符合自己UI风格的item layout用来容纳原生广告素材的4元素
+Super Ads Server response you 4 or 3 elements when you request a Native Ad
+1. App Icon
+2. APP Title
+3. APP Description
+4. APP Big Image (this maybe empty)
+The publisher can use these elements to build a recycleview item and inser into the origin list.
+
+Step 1: define a recycleview item layout to contains the 4 or 3 Native Ad elements.
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -209,7 +208,7 @@ final AdView adView = new AdView(this);
 
 </RelativeLayout>
 ```
-第二步：定义一个container layout来容纳这个ad item
+Step 2: define a container layout to contain the recycleview item
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -224,7 +223,7 @@ final AdView adView = new AdView(this);
 
 </LinearLayout>
 ```
-第三步，请求原生广告并显示
+Step 3: request and show the Native Ad
 ```
         if (viewType == NATIVE_AD_BANNER) {
             View v = LayoutInflater.from(parent.getContext())
@@ -278,12 +277,12 @@ final AdView adView = new AdView(this);
         }
 ```
 
-**7)	 请求和展示视频广告**
-视频广告一个全屏播放的广告形式。
+**7)	 Request a video Ad**
+Video Ad is playing in the full screen.
 
 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 
-请求广告
+Step 1: request Ad
 ```
             AdRequest.Builder builder = new AdRequest.Builder("YOUR_PLACEMENT_ID_HERE");
             builder.adSize(VideoSize.VIDEO_560x320);
@@ -305,7 +304,7 @@ final AdView adView = new AdView(this);
                 }
             });
 ```
-展示广告
+Step 2: play video
 ```
             if (videoAdLoader != null)
                 videoAdLoader.show();
