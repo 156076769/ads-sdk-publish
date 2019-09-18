@@ -13,7 +13,7 @@ SuperADS为每个开发者分配一个Publisher Id。在集成sdk前，请联系
 **2)	依赖sdk和初始化**
 ```
 //SuperADS广告SDK需要的
-implementation 'com.superads.android:adsdk:0.2.4'
+implementation 'com.superads.android:adsdk:0.2.7'
 implementation 'com.squareup.retrofit2:retrofit:2.6.0'
 implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 ```
@@ -33,6 +33,7 @@ implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 -keep class cn.superads.sdk.providers.models.BannerSize { *; }
 -keep class cn.superads.sdk.providers.models.InterstitialSize { *; }
 -keep class cn.superads.sdk.providers.models.VideoSize { *; }
+-keep class cn.superads.sdk.rendering.view.RewardedVideoAd { *; }
 
 ```
 
@@ -207,6 +208,16 @@ final AdView adView = new AdView(this);
         android:textStyle="bold"
         tools:text="Download now" />
 
+    <ImageView
+        android:id="@+id/privacy_icon_2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp" />
+		
 </RelativeLayout>
 ```
 第二步：定义一个container layout来容纳这个ad item
@@ -232,6 +243,7 @@ final AdView adView = new AdView(this);
             final View adView = LayoutInflater.from(parent.getContext()).inflate(R.layout.superads_native_ad_banner, null);
             NativeAdRequest.Builder builder = new NativeAdRequest.Builder(adView, "YOUR_PLACEMENT_ID_HERE")
                     .titleTextViewId(R.id.ad_txt_title)
+					.privacyInformationIconImageId(R.id.privacy_icon_2)
                     .descriptionsTextViewId(R.id.ad_txt_description)
                     .callToActionTextViewId(R.id.ad_txt_cta)
                     .iconImageViewId(R.id.ad_img_icon);
@@ -286,7 +298,7 @@ final AdView adView = new AdView(this);
 请求广告
 ```
             AdRequest.Builder builder = new AdRequest.Builder("YOUR_PLACEMENT_ID_HERE");
-            builder.adSize(VideoSize.VIDEO_560x320);
+            builder.adSize(VideoSize.VIDEO_1280x720);
             this.videoAdLoader = new VideoAd(this);
             videoAdLoader.loadAd(builder.build(), new AdListener() {
                 @Override
