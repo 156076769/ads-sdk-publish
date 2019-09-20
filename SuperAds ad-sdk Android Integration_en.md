@@ -11,9 +11,7 @@ Demo APK: https://raw.githubusercontent.com/156076769/superads_standalone_demo/m
 
 **2)	Dependences**
 ```
-implementation 'com.superads.android:adsdk:0.2.4'
-implementation 'com.squareup.retrofit2:retrofit:2.6.0'
-implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+implementation 'com.superads.android:adsdk:0.2.7'
 ```
 
 **3)	Proguard**
@@ -77,7 +75,7 @@ Interstital Ad is showing in the full screen.
 
 ![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 
-Step 1：Request the Ad from server
+Step 1: equest the Ad from server
 ```
             AdRequest.Builder builder = new AdRequest.Builder("YOUR_PLACEMENT_ID_HERE");
             builder.adSize(InterstitialSize.TABLET_INTERSTITIAL_1024x768);
@@ -206,6 +204,16 @@ Step 1: define a recycleview item layout to contains the 4 or 3 Native Ad elemen
         android:textStyle="bold"
         tools:text="Download now" />
 
+    <ImageView
+        android:id="@+id/privacy_icon_2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp" />
+		
 </RelativeLayout>
 ```
 Step 2: define a container layout to contain the recycleview item
@@ -231,6 +239,7 @@ Step 3: request and show the Native Ad
             final View adView = LayoutInflater.from(parent.getContext()).inflate(R.layout.superads_native_ad_banner, null);
             NativeAdRequest.Builder builder = new NativeAdRequest.Builder(adView, "YOUR_PLACEMENT_ID_HERE")
                     .titleTextViewId(R.id.ad_txt_title)
+					.privacyInformationIconImageId(R.id.privacy_icon_2)
                     .descriptionsTextViewId(R.id.ad_txt_description)
                     .callToActionTextViewId(R.id.ad_txt_cta)
                     .iconImageViewId(R.id.ad_img_icon);
@@ -253,6 +262,7 @@ Step 3: request and show the Native Ad
             final View adView = LayoutInflater.from(parent.getContext()).inflate(R.layout.superads_native_ad_feed, null);
             NativeAdRequest.Builder builder = new NativeAdRequest.Builder(adView, "YOUR_PLACEMENT_ID_HERE")
                     .titleTextViewId(R.id.ad_txt_title)
+					.privacyInformationIconImageId(R.id.privacy_icon_2)
                     .descriptionsTextViewId(R.id.ad_txt_description)
                     .callToActionTextViewId(R.id.ad_txt_cta)
                     .bigImageViewId(R.id.ad_img)

@@ -14,8 +14,6 @@ SuperADS为每个开发者分配一个Publisher Id。在集成sdk前，请联系
 ```
 //SuperADS广告SDK需要的
 implementation 'com.superads.android:adsdk:0.2.7'
-implementation 'com.squareup.retrofit2:retrofit:2.6.0'
-implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
 ```
 
 **3)	混淆配置**
@@ -266,6 +264,7 @@ final AdView adView = new AdView(this);
             final View adView = LayoutInflater.from(parent.getContext()).inflate(R.layout.superads_native_ad_feed, null);
             NativeAdRequest.Builder builder = new NativeAdRequest.Builder(adView, "YOUR_PLACEMENT_ID_HERE")
                     .titleTextViewId(R.id.ad_txt_title)
+					.privacyInformationIconImageId(R.id.privacy_icon_2)
                     .descriptionsTextViewId(R.id.ad_txt_description)
                     .callToActionTextViewId(R.id.ad_txt_cta)
                     .bigImageViewId(R.id.ad_img)
