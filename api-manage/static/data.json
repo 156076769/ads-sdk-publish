@@ -222,6 +222,39 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "get_rewarded_video_ad",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"app\": {\r\n    \"bundle\": \"com.aitype.android.ads\",\r\n    \"id\": \"a422f9bf94df0c59389d5beff67f8821\",\r\n    \"name\": \"App_Name\",\r\n    \"publisher\": {\r\n      \"id\": \"76858ce16377c7eef4\",\r\n      \"name\": \"Publisher_Name\"\r\n    },\r\n    \"storeurl\": \"https://play.google.com/store/apps/details?id=com.aitype.android&hl=en\",\r\n    \"ver\": 1\r\n  },\r\n  \"device\": {\r\n    \"carrier\": \"Golan T\",\r\n    \"connectiontype\": 2,\r\n    \"devicetype\": 4,\r\n    \"didsha1\": \"e785aa3f-0b58-4ff1-8758-74ae56a9b2d9\",\r\n    \"geo\": {\r\n      \"country\": \"CN\",\r\n      \"lat\": 10.738701,\r\n      \"lon\": -76.0037\r\n    },\r\n    \"h\": 90,\r\n    \"hwv\": \"iPhone 6+\",\r\n    \"ip\": \"8.25.196.26\",\r\n    \"language\": \"en\",\r\n    \"make\": \"Apple\",\r\n    \"mccmnc\": \"IL\",\r\n    \"model\": \"iPhone\",\r\n    \"os\": \"Android\",\r\n    \"osv\": 8.1,\r\n    \"pxratio\": 2.625,\r\n    \"ua\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411\",\r\n    \"w\": 728\r\n  },\r\n  \"id\": \"8e41bc64-188d-43cf-b98f-9853cb2a2886\",\r\n  \"imp\": [\r\n    {\r\n      \"banner\": {\r\n        \"h\": 50,\r\n        \"w\": 320\r\n      },\r\n      \"displaymanager\": \"SDK DEVELOPER COMPANT NAME\",\r\n      \"displaymanagerver\": \"3.10.0\",\r\n      \"id\": 1,\r\n      \"instl\": 0,\r\n      \"native\": {\r\n        \"api\": [\r\n          1,\r\n          2\r\n        ],\r\n        \"battr\": [\r\n          1,\r\n          2\r\n        ],\r\n        \"request\": \"request\",\r\n        \"ver\": 1\r\n      },\r\n      \"video\": {\r\n        \"boxingallowed\": true,\r\n        \"companionad\": [\r\n          {\r\n            \"h\": 720,\r\n            \"id\": 123456789,\r\n            \"pos\": 1,\r\n            \"w\": 1280\r\n          }\r\n        ],\r\n        \"companiontype\": [\r\n          1,\r\n          2\r\n        ],\r\n        \"h\": 720,\r\n        \"linearity\": 1,\r\n        \"maxbitrate\": 1500,\r\n        \"maxduration\": 30,\r\n        \"maxextended\": 0,\r\n        \"mimes\": [\r\n          \"VIDEO_X_FLV\",\r\n          \"VIDEO_MP4\"\r\n        ],\r\n        \"minbitrate\": 300,\r\n        \"minduration\": 5,\r\n        \"pos\": 0,\r\n        \"protocol\": [\r\n          2,\r\n          3\r\n        ],\r\n        \"skip\": 1,\r\n        \"skipafter\": false,\r\n        \"skipmin\": false,\r\n        \"w\": 1280,\r\n        \"ext\": {\r\n        \t\"videotype\": \"rewarded\",\r\n        \t\"skip\": 0\r\n        }\r\n      }\r\n    }\r\n  ],\r\n  \"segment\": {\r\n    \"id\": \"4f3665f7-5830-4aa7-9414-c9017f9fabdd\"\r\n  },\r\n  \"user\": {\r\n    \"gender\": \"M\",\r\n    \"id\": \"38400000-8cf0-11bd-b23e-10b96e40000d\",\r\n    \"yob\": 1927\r\n  }\r\n}"
+				},
+				"url": {
+					"raw": "https://superads-sdk-gateway.superads-staging.net/api/bid/video",
+					"protocol": "https",
+					"host": [
+						"superads-sdk-gateway",
+						"superads-staging",
+						"net"
+					],
+					"path": [
+						"api",
+						"bid",
+						"video"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
