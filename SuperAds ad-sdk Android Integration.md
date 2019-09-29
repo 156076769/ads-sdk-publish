@@ -2,7 +2,7 @@
 
 SuperADS广告sdk提供了横幅广告（Banner），插屏广告（Interstital），原生广告（Native Banner, Native Feed），视频广告（Video）等4种广告形式，通过集成广告sdk展示广告可以获得收益。本文描述了Android开发者如何集成sdk和展示广告。
 
-详细的接入demo示例代码可以：https://github.com/156076769/superads_standalone_demo
+详细的接入demo示例代码可以: https://github.com/156076769/superads_standalone_demo
 Demo APK: https://raw.githubusercontent.com/156076769/superads_standalone_demo/master/demo.apk
 
 ---
@@ -43,7 +43,7 @@ SuperAds.init(context, "分配给你的publisherId", "分配给你的AppId");
 
 **5)	 请求和展示横幅广告**
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/fb0331acd93698371a54710293453a5b.png)
 
 第一步：在你要展示广告的页面布局中加入容纳广告的FrameLayout，并且将此FrameLayout放在顶部或者底部。
 ```
@@ -76,7 +76,7 @@ final AdView adView = new AdView(this);
 **5)	 请求和展示插屏广告**
 插屏广告是1024*768（竖屏下）的广告，全屏显示。
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/6db9ca8f93abc8c7f240aa7e8ab0a425.png)
 
 请求广告：
 ```
@@ -109,7 +109,7 @@ final AdView adView = new AdView(this);
 **6)	 请求和展示原生广告（信息流）**
 原生广告是嵌入到你的feed流中的广告样式，也叫信息流广告，分为Native Banner和Native Feed两种。
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/480bf8127ef241d7d3b80004b0b53cae.png)
 
 服务器返回的原生广告Ad素材包含下面4或者3个元素：
 1. App Icon：应用小图标
@@ -292,7 +292,7 @@ final AdView adView = new AdView(this);
 **7)	 请求和展示视频广告**
 视频广告一个全屏播放的广告形式。
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/9af2e06d206b8c3abbf2bf455fc91f7f.png)
 
 请求广告
 ```

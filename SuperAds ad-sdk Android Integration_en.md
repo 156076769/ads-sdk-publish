@@ -40,7 +40,7 @@ We sugguest you invoke it in Application onCreate
 
 **5)	 Request and show a Banner Ad**
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/fb0331acd93698371a54710293453a5b.png)
 
 Step 1: add a FrameLayout in where you show the banner
 ```
@@ -73,7 +73,7 @@ final AdView adView = new AdView(this);
 **5)	 Request and show a Interstital Ad**
 Interstital Ad is showing in the full screen.
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/6db9ca8f93abc8c7f240aa7e8ab0a425.png)
 
 Step 1: equest the Ad from server
 ```
@@ -107,7 +107,7 @@ Step 2: when getting response successfully, show the Ad
 Native Ad(Feed Ad) is a Ad that embedding in your origin listview/recycleview
 
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/480bf8127ef241d7d3b80004b0b53cae.png)
 
 Super Ads Server response you 4 or 3 elements when you request a Native Ad
 1. App Icon
@@ -290,7 +290,7 @@ Step 3: request and show the Native Ad
 **7)	 Request a video Ad**
 Video Ad is playing in the full screen.
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://cloud-creative.superads.cn/9af2e06d206b8c3abbf2bf455fc91f7f.png)
 
 Step 1: request Ad
 ```
