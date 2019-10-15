@@ -1,0 +1,4 @@
+#Tue Oct 15 16:24:25 CST 2019
+base.0=D\:\\yohay_gitlab\\superads-android-sdk-sample\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

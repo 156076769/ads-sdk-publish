@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.superads.app"
+4    android:versionCode="1"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:6:3-65
+11-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:6:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:12:5-79
+12-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:12:22-76
+13
+14    <application
+14-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:7:3-27:17
+15        android:allowBackup="true"
+15-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:8:5-31
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\a5bd681ac66393aa9c05ec9125b6e4a9\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:9:5-39
+19        android:label="@string/app_name"
+19-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:10:5-37
+20        android:largeHeap="true"
+20-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:14:18-42
+21        android:networkSecurityConfig="@xml/network_security_config"
+21-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:11:5-65
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:12:5-50
+23        android:supportsRtl="false"
+23-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:13:5-32
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:14:5-36
+26        android:usesCleartextTraffic="true" >
+26-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:15:5-40
+27        <activity
+27-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:18:5-26:16
+28            android:name="cn.superads.app.activities.MainActivity"
+28-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:19:7-46
+29            android:configChanges="orientation|screenSize|keyboardHidden" >
+29-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:20:7-68
+30            <intent-filter>
+30-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:22:7-25:23
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:23:9-61
+31-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:23:17-58
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:24:9-69
+33-->D:\yohay_gitlab\superads-android-sdk-sample\app\src\main\AndroidManifest.xml:24:19-66
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:15:9-18:80
+37            android:name="cn.superads.sdk.rendering.view.InterstitialActivity"
+37-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:16:13-79
+38            android:configChanges="screenSize|orientation"
+38-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:17:13-59
+39            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+39-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:18:13-77
+40        <activity
+40-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:19:9-22:80
+41            android:name="cn.superads.sdk.rendering.view.VideoActivityMediaPlayer"
+41-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:20:13-83
+42            android:configChanges="screenSize|orientation"
+42-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:21:13-59
+43            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+43-->[com.superads.android:adsdk:0.2.9] C:\Users\superads-028\.gradle\caches\transforms-2\files-2.1\d5efb3aed9786da8be425cd5d5deea53\adsdk-0.2.9\AndroidManifest.xml:22:13-77
+44    </application>
+45
+46</manifest>
