@@ -3,12 +3,12 @@ adb shell monkey -p com.ads.shop.withad -v 10000 > monkey_result.txt
 
 //../gradlew clean build bintrayUpload -PbintrayUser=superads -PbintrayKey=b6acd94bd7ac0f38d0642c9da787c7376cd09b96 -PdryRun=true -x test
 
-cp build/outputs/aar/sdk-release.aar /e/ads-sdk-publish/0.2.8/adsdk-0.2.8.aar
-cp build/libs/sdk-javadoc.jar /e/ads-sdk-publish/0.2.8/adsdk-0.2.8-javadoc.jar
-cp build/intermediates/packaged-classes/release/classes.jar /e/ads-sdk-publish/0.2.8/adsdk-0.2.8-sources.jar
-cp build/outputs/mapping/release/mapping.txt /e/ads-sdk-publish/0.2.8/mapping.txt
+cp build/outputs/aar/sdk-release.aar /e/ads-sdk-publish/0.2.9/adsdk-0.2.9.aar
+cp build/libs/sdk-javadoc.jar /e/ads-sdk-publish/0.2.9/adsdk-0.2.9-javadoc.jar
+cp build/intermediates/packaged-classes/release/classes.jar /e/ads-sdk-publish/0.2.9/adsdk-0.2.9-sources.jar
+cp build/outputs/mapping/release/mapping.txt /e/ads-sdk-publish/0.2.9/mapping.txt
 
-curl -T adsdk-0.2.8.aar -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.8/adsdk-0.2.8.aar
-curl -T adsdk-0.2.8-javadoc.jar -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.8/adsdk-0.2.8-javadoc.jar
-curl -T adsdk-0.2.8-sources.jar -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.8/adsdk-0.2.8-sources.jar
-curl -T adsdk-0.2.8.pom -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.8/adsdk-0.2.8.pom
+curl -T adsdk-0.2.9.aar -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.9/adsdk-0.2.9.aar
+curl -T adsdk-0.2.9-javadoc.jar -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.9/adsdk-0.2.9-javadoc.jar
+curl -T adsdk-0.2.9-sources.jar -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.9/adsdk-0.2.9-sources.jar
+curl -T adsdk-0.2.9.pom -usuperads:b6acd94bd7ac0f38d0642c9da787c7376cd09b96 https://api.bintray.com/content/superads/maven/adsdk/0.2.9/adsdk-0.2.9.pom
