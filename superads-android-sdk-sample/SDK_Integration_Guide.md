@@ -220,7 +220,7 @@ void onVideoRewarded(SAAdCard card)
 <a name="4"></a>
 ## Demo App
 ##### A demo app with a simple usage of the SDK can be found in the following
-Github repository: [Link](http://www.google.co.il "Link")
+Github repository: [Link](https://github.com/156076769/ads-sdk-publish/tree/master/superads-android-sdk-sample "Link")
 
 The demo app contains several types of advertisements:
 **Banner** Ad, **Interstitial** Ad, **Video** Ad, **Rewarded Video** Ad and a **Native** Ad.

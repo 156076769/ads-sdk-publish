@@ -1,7 +1,0 @@
--在线文档
-SDK:
-http://platform.superads.cn/doc/index.html#/doc?lang=cn
-http://platform.superads.cn/doc/index.html#/doc
-API:
-http://platform.superads.cn/api/index.html#/api?lang=cn
-http://platform.superads.cn/api/index.html#/api
