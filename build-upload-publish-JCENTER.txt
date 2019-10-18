@@ -1,5 +1,16 @@
-adb shell monkey -p com.aitype.android.ads -v 10000 > monkey_result.txt
-adb shell monkey -p com.ads.shop.withad -v 10000 > monkey_result.txt
+jcenter账号密码：
+publish {
+ userOrg = 'superads'
+ groupId = 'com.superads.android'
+ artifactId = 'adsdk'
+ publishVersion = '0.2.8'
+ desc = 'Advertising SDK of SuperADS company'
+ website = 'http://www.superads.cn'
+}
+jcenter account:
+https://bintray.com/superads
+joanna@superads.cn
+password:***
 
 //../gradlew clean build bintrayUpload -PbintrayUser=superads -PbintrayKey=b6acd94bd7ac0f38d0642c9da787c7376cd09b96 -PdryRun=true -x test
 
